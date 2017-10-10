@@ -69,5 +69,6 @@
   .ion-md-#{$fa-css-prefix}-#{$name}:before ,
   .ion-md-#{$fa-css-prefix}-#{$name}-outline:before  {
     content: $val;
+    font-family: FontAwesome;
   }
 }
