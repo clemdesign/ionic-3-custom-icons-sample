@@ -58,3 +58,16 @@
     clip: auto;
   }
 }
+
+
+// Make an ionic icon
+
+@mixin fa-ionic-icon($name, $val) {
+  .#{$fa-css-prefix}-#{$name}:before ,
+  .ion-ios-#{$fa-css-prefix}-#{$name}:before ,
+  .ion-ios-#{$fa-css-prefix}-#{$name}-outline:before ,
+  .ion-md-#{$fa-css-prefix}-#{$name}:before ,
+  .ion-md-#{$fa-css-prefix}-#{$name}-outline:before  {
+    content: $val;
+  }
+}

@@ -1,789 +1,789 @@
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
    readers do not read off random characters that represent icons */
 
-.#{$fa-css-prefix}-glass:before { content: $fa-var-glass; }
-.#{$fa-css-prefix}-music:before { content: $fa-var-music; }
-.#{$fa-css-prefix}-search:before { content: $fa-var-search; }
-.#{$fa-css-prefix}-envelope-o:before { content: $fa-var-envelope-o; }
-.#{$fa-css-prefix}-heart:before { content: $fa-var-heart; }
-.#{$fa-css-prefix}-star:before { content: $fa-var-star; }
-.#{$fa-css-prefix}-star-o:before { content: $fa-var-star-o; }
-.#{$fa-css-prefix}-user:before { content: $fa-var-user; }
-.#{$fa-css-prefix}-film:before { content: $fa-var-film; }
-.#{$fa-css-prefix}-th-large:before { content: $fa-var-th-large; }
-.#{$fa-css-prefix}-th:before { content: $fa-var-th; }
-.#{$fa-css-prefix}-th-list:before { content: $fa-var-th-list; }
-.#{$fa-css-prefix}-check:before { content: $fa-var-check; }
-.#{$fa-css-prefix}-remove:before,
-.#{$fa-css-prefix}-close:before,
-.#{$fa-css-prefix}-times:before { content: $fa-var-times; }
-.#{$fa-css-prefix}-search-plus:before { content: $fa-var-search-plus; }
-.#{$fa-css-prefix}-search-minus:before { content: $fa-var-search-minus; }
-.#{$fa-css-prefix}-power-off:before { content: $fa-var-power-off; }
-.#{$fa-css-prefix}-signal:before { content: $fa-var-signal; }
-.#{$fa-css-prefix}-gear:before,
-.#{$fa-css-prefix}-cog:before { content: $fa-var-cog; }
-.#{$fa-css-prefix}-trash-o:before { content: $fa-var-trash-o; }
-.#{$fa-css-prefix}-home:before { content: $fa-var-home; }
-.#{$fa-css-prefix}-file-o:before { content: $fa-var-file-o; }
-.#{$fa-css-prefix}-clock-o:before { content: $fa-var-clock-o; }
-.#{$fa-css-prefix}-road:before { content: $fa-var-road; }
-.#{$fa-css-prefix}-download:before { content: $fa-var-download; }
-.#{$fa-css-prefix}-arrow-circle-o-down:before { content: $fa-var-arrow-circle-o-down; }
-.#{$fa-css-prefix}-arrow-circle-o-up:before { content: $fa-var-arrow-circle-o-up; }
-.#{$fa-css-prefix}-inbox:before { content: $fa-var-inbox; }
-.#{$fa-css-prefix}-play-circle-o:before { content: $fa-var-play-circle-o; }
-.#{$fa-css-prefix}-rotate-right:before,
-.#{$fa-css-prefix}-repeat:before { content: $fa-var-repeat; }
-.#{$fa-css-prefix}-refresh:before { content: $fa-var-refresh; }
-.#{$fa-css-prefix}-list-alt:before { content: $fa-var-list-alt; }
-.#{$fa-css-prefix}-lock:before { content: $fa-var-lock; }
-.#{$fa-css-prefix}-flag:before { content: $fa-var-flag; }
-.#{$fa-css-prefix}-headphones:before { content: $fa-var-headphones; }
-.#{$fa-css-prefix}-volume-off:before { content: $fa-var-volume-off; }
-.#{$fa-css-prefix}-volume-down:before { content: $fa-var-volume-down; }
-.#{$fa-css-prefix}-volume-up:before { content: $fa-var-volume-up; }
-.#{$fa-css-prefix}-qrcode:before { content: $fa-var-qrcode; }
-.#{$fa-css-prefix}-barcode:before { content: $fa-var-barcode; }
-.#{$fa-css-prefix}-tag:before { content: $fa-var-tag; }
-.#{$fa-css-prefix}-tags:before { content: $fa-var-tags; }
-.#{$fa-css-prefix}-book:before { content: $fa-var-book; }
-.#{$fa-css-prefix}-bookmark:before { content: $fa-var-bookmark; }
-.#{$fa-css-prefix}-print:before { content: $fa-var-print; }
-.#{$fa-css-prefix}-camera:before { content: $fa-var-camera; }
-.#{$fa-css-prefix}-font:before { content: $fa-var-font; }
-.#{$fa-css-prefix}-bold:before { content: $fa-var-bold; }
-.#{$fa-css-prefix}-italic:before { content: $fa-var-italic; }
-.#{$fa-css-prefix}-text-height:before { content: $fa-var-text-height; }
-.#{$fa-css-prefix}-text-width:before { content: $fa-var-text-width; }
-.#{$fa-css-prefix}-align-left:before { content: $fa-var-align-left; }
-.#{$fa-css-prefix}-align-center:before { content: $fa-var-align-center; }
-.#{$fa-css-prefix}-align-right:before { content: $fa-var-align-right; }
-.#{$fa-css-prefix}-align-justify:before { content: $fa-var-align-justify; }
-.#{$fa-css-prefix}-list:before { content: $fa-var-list; }
-.#{$fa-css-prefix}-dedent:before,
-.#{$fa-css-prefix}-outdent:before { content: $fa-var-outdent; }
-.#{$fa-css-prefix}-indent:before { content: $fa-var-indent; }
-.#{$fa-css-prefix}-video-camera:before { content: $fa-var-video-camera; }
-.#{$fa-css-prefix}-photo:before,
-.#{$fa-css-prefix}-image:before,
-.#{$fa-css-prefix}-picture-o:before { content: $fa-var-picture-o; }
-.#{$fa-css-prefix}-pencil:before { content: $fa-var-pencil; }
-.#{$fa-css-prefix}-map-marker:before { content: $fa-var-map-marker; }
-.#{$fa-css-prefix}-adjust:before { content: $fa-var-adjust; }
-.#{$fa-css-prefix}-tint:before { content: $fa-var-tint; }
-.#{$fa-css-prefix}-edit:before,
-.#{$fa-css-prefix}-pencil-square-o:before { content: $fa-var-pencil-square-o; }
-.#{$fa-css-prefix}-share-square-o:before { content: $fa-var-share-square-o; }
-.#{$fa-css-prefix}-check-square-o:before { content: $fa-var-check-square-o; }
-.#{$fa-css-prefix}-arrows:before { content: $fa-var-arrows; }
-.#{$fa-css-prefix}-step-backward:before { content: $fa-var-step-backward; }
-.#{$fa-css-prefix}-fast-backward:before { content: $fa-var-fast-backward; }
-.#{$fa-css-prefix}-backward:before { content: $fa-var-backward; }
-.#{$fa-css-prefix}-play:before { content: $fa-var-play; }
-.#{$fa-css-prefix}-pause:before { content: $fa-var-pause; }
-.#{$fa-css-prefix}-stop:before { content: $fa-var-stop; }
-.#{$fa-css-prefix}-forward:before { content: $fa-var-forward; }
-.#{$fa-css-prefix}-fast-forward:before { content: $fa-var-fast-forward; }
-.#{$fa-css-prefix}-step-forward:before { content: $fa-var-step-forward; }
-.#{$fa-css-prefix}-eject:before { content: $fa-var-eject; }
-.#{$fa-css-prefix}-chevron-left:before { content: $fa-var-chevron-left; }
-.#{$fa-css-prefix}-chevron-right:before { content: $fa-var-chevron-right; }
-.#{$fa-css-prefix}-plus-circle:before { content: $fa-var-plus-circle; }
-.#{$fa-css-prefix}-minus-circle:before { content: $fa-var-minus-circle; }
-.#{$fa-css-prefix}-times-circle:before { content: $fa-var-times-circle; }
-.#{$fa-css-prefix}-check-circle:before { content: $fa-var-check-circle; }
-.#{$fa-css-prefix}-question-circle:before { content: $fa-var-question-circle; }
-.#{$fa-css-prefix}-info-circle:before { content: $fa-var-info-circle; }
-.#{$fa-css-prefix}-crosshairs:before { content: $fa-var-crosshairs; }
-.#{$fa-css-prefix}-times-circle-o:before { content: $fa-var-times-circle-o; }
-.#{$fa-css-prefix}-check-circle-o:before { content: $fa-var-check-circle-o; }
-.#{$fa-css-prefix}-ban:before { content: $fa-var-ban; }
-.#{$fa-css-prefix}-arrow-left:before { content: $fa-var-arrow-left; }
-.#{$fa-css-prefix}-arrow-right:before { content: $fa-var-arrow-right; }
-.#{$fa-css-prefix}-arrow-up:before { content: $fa-var-arrow-up; }
-.#{$fa-css-prefix}-arrow-down:before { content: $fa-var-arrow-down; }
-.#{$fa-css-prefix}-mail-forward:before,
-.#{$fa-css-prefix}-share:before { content: $fa-var-share; }
-.#{$fa-css-prefix}-expand:before { content: $fa-var-expand; }
-.#{$fa-css-prefix}-compress:before { content: $fa-var-compress; }
-.#{$fa-css-prefix}-plus:before { content: $fa-var-plus; }
-.#{$fa-css-prefix}-minus:before { content: $fa-var-minus; }
-.#{$fa-css-prefix}-asterisk:before { content: $fa-var-asterisk; }
-.#{$fa-css-prefix}-exclamation-circle:before { content: $fa-var-exclamation-circle; }
-.#{$fa-css-prefix}-gift:before { content: $fa-var-gift; }
-.#{$fa-css-prefix}-leaf:before { content: $fa-var-leaf; }
-.#{$fa-css-prefix}-fire:before { content: $fa-var-fire; }
-.#{$fa-css-prefix}-eye:before { content: $fa-var-eye; }
-.#{$fa-css-prefix}-eye-slash:before { content: $fa-var-eye-slash; }
-.#{$fa-css-prefix}-warning:before,
-.#{$fa-css-prefix}-exclamation-triangle:before { content: $fa-var-exclamation-triangle; }
-.#{$fa-css-prefix}-plane:before { content: $fa-var-plane; }
-.#{$fa-css-prefix}-calendar:before { content: $fa-var-calendar; }
-.#{$fa-css-prefix}-random:before { content: $fa-var-random; }
-.#{$fa-css-prefix}-comment:before { content: $fa-var-comment; }
-.#{$fa-css-prefix}-magnet:before { content: $fa-var-magnet; }
-.#{$fa-css-prefix}-chevron-up:before { content: $fa-var-chevron-up; }
-.#{$fa-css-prefix}-chevron-down:before { content: $fa-var-chevron-down; }
-.#{$fa-css-prefix}-retweet:before { content: $fa-var-retweet; }
-.#{$fa-css-prefix}-shopping-cart:before { content: $fa-var-shopping-cart; }
-.#{$fa-css-prefix}-folder:before { content: $fa-var-folder; }
-.#{$fa-css-prefix}-folder-open:before { content: $fa-var-folder-open; }
-.#{$fa-css-prefix}-arrows-v:before { content: $fa-var-arrows-v; }
-.#{$fa-css-prefix}-arrows-h:before { content: $fa-var-arrows-h; }
-.#{$fa-css-prefix}-bar-chart-o:before,
-.#{$fa-css-prefix}-bar-chart:before { content: $fa-var-bar-chart; }
-.#{$fa-css-prefix}-twitter-square:before { content: $fa-var-twitter-square; }
-.#{$fa-css-prefix}-facebook-square:before { content: $fa-var-facebook-square; }
-.#{$fa-css-prefix}-camera-retro:before { content: $fa-var-camera-retro; }
-.#{$fa-css-prefix}-key:before { content: $fa-var-key; }
-.#{$fa-css-prefix}-gears:before,
-.#{$fa-css-prefix}-cogs:before { content: $fa-var-cogs; }
-.#{$fa-css-prefix}-comments:before { content: $fa-var-comments; }
-.#{$fa-css-prefix}-thumbs-o-up:before { content: $fa-var-thumbs-o-up; }
-.#{$fa-css-prefix}-thumbs-o-down:before { content: $fa-var-thumbs-o-down; }
-.#{$fa-css-prefix}-star-half:before { content: $fa-var-star-half; }
-.#{$fa-css-prefix}-heart-o:before { content: $fa-var-heart-o; }
-.#{$fa-css-prefix}-sign-out:before { content: $fa-var-sign-out; }
-.#{$fa-css-prefix}-linkedin-square:before { content: $fa-var-linkedin-square; }
-.#{$fa-css-prefix}-thumb-tack:before { content: $fa-var-thumb-tack; }
-.#{$fa-css-prefix}-external-link:before { content: $fa-var-external-link; }
-.#{$fa-css-prefix}-sign-in:before { content: $fa-var-sign-in; }
-.#{$fa-css-prefix}-trophy:before { content: $fa-var-trophy; }
-.#{$fa-css-prefix}-github-square:before { content: $fa-var-github-square; }
-.#{$fa-css-prefix}-upload:before { content: $fa-var-upload; }
-.#{$fa-css-prefix}-lemon-o:before { content: $fa-var-lemon-o; }
-.#{$fa-css-prefix}-phone:before { content: $fa-var-phone; }
-.#{$fa-css-prefix}-square-o:before { content: $fa-var-square-o; }
-.#{$fa-css-prefix}-bookmark-o:before { content: $fa-var-bookmark-o; }
-.#{$fa-css-prefix}-phone-square:before { content: $fa-var-phone-square; }
-.#{$fa-css-prefix}-twitter:before { content: $fa-var-twitter; }
-.#{$fa-css-prefix}-facebook-f:before,
-.#{$fa-css-prefix}-facebook:before { content: $fa-var-facebook; }
-.#{$fa-css-prefix}-github:before { content: $fa-var-github; }
-.#{$fa-css-prefix}-unlock:before { content: $fa-var-unlock; }
-.#{$fa-css-prefix}-credit-card:before { content: $fa-var-credit-card; }
-.#{$fa-css-prefix}-feed:before,
-.#{$fa-css-prefix}-rss:before { content: $fa-var-rss; }
-.#{$fa-css-prefix}-hdd-o:before { content: $fa-var-hdd-o; }
-.#{$fa-css-prefix}-bullhorn:before { content: $fa-var-bullhorn; }
-.#{$fa-css-prefix}-bell:before { content: $fa-var-bell; }
-.#{$fa-css-prefix}-certificate:before { content: $fa-var-certificate; }
-.#{$fa-css-prefix}-hand-o-right:before { content: $fa-var-hand-o-right; }
-.#{$fa-css-prefix}-hand-o-left:before { content: $fa-var-hand-o-left; }
-.#{$fa-css-prefix}-hand-o-up:before { content: $fa-var-hand-o-up; }
-.#{$fa-css-prefix}-hand-o-down:before { content: $fa-var-hand-o-down; }
-.#{$fa-css-prefix}-arrow-circle-left:before { content: $fa-var-arrow-circle-left; }
-.#{$fa-css-prefix}-arrow-circle-right:before { content: $fa-var-arrow-circle-right; }
-.#{$fa-css-prefix}-arrow-circle-up:before { content: $fa-var-arrow-circle-up; }
-.#{$fa-css-prefix}-arrow-circle-down:before { content: $fa-var-arrow-circle-down; }
-.#{$fa-css-prefix}-globe:before { content: $fa-var-globe; }
-.#{$fa-css-prefix}-wrench:before { content: $fa-var-wrench; }
-.#{$fa-css-prefix}-tasks:before { content: $fa-var-tasks; }
-.#{$fa-css-prefix}-filter:before { content: $fa-var-filter; }
-.#{$fa-css-prefix}-briefcase:before { content: $fa-var-briefcase; }
-.#{$fa-css-prefix}-arrows-alt:before { content: $fa-var-arrows-alt; }
-.#{$fa-css-prefix}-group:before,
-.#{$fa-css-prefix}-users:before { content: $fa-var-users; }
-.#{$fa-css-prefix}-chain:before,
-.#{$fa-css-prefix}-link:before { content: $fa-var-link; }
-.#{$fa-css-prefix}-cloud:before { content: $fa-var-cloud; }
-.#{$fa-css-prefix}-flask:before { content: $fa-var-flask; }
-.#{$fa-css-prefix}-cut:before,
-.#{$fa-css-prefix}-scissors:before { content: $fa-var-scissors; }
-.#{$fa-css-prefix}-copy:before,
-.#{$fa-css-prefix}-files-o:before { content: $fa-var-files-o; }
-.#{$fa-css-prefix}-paperclip:before { content: $fa-var-paperclip; }
-.#{$fa-css-prefix}-save:before,
-.#{$fa-css-prefix}-floppy-o:before { content: $fa-var-floppy-o; }
-.#{$fa-css-prefix}-square:before { content: $fa-var-square; }
-.#{$fa-css-prefix}-navicon:before,
-.#{$fa-css-prefix}-reorder:before,
-.#{$fa-css-prefix}-bars:before { content: $fa-var-bars; }
-.#{$fa-css-prefix}-list-ul:before { content: $fa-var-list-ul; }
-.#{$fa-css-prefix}-list-ol:before { content: $fa-var-list-ol; }
-.#{$fa-css-prefix}-strikethrough:before { content: $fa-var-strikethrough; }
-.#{$fa-css-prefix}-underline:before { content: $fa-var-underline; }
-.#{$fa-css-prefix}-table:before { content: $fa-var-table; }
-.#{$fa-css-prefix}-magic:before { content: $fa-var-magic; }
-.#{$fa-css-prefix}-truck:before { content: $fa-var-truck; }
-.#{$fa-css-prefix}-pinterest:before { content: $fa-var-pinterest; }
-.#{$fa-css-prefix}-pinterest-square:before { content: $fa-var-pinterest-square; }
-.#{$fa-css-prefix}-google-plus-square:before { content: $fa-var-google-plus-square; }
-.#{$fa-css-prefix}-google-plus:before { content: $fa-var-google-plus; }
-.#{$fa-css-prefix}-money:before { content: $fa-var-money; }
-.#{$fa-css-prefix}-caret-down:before { content: $fa-var-caret-down; }
-.#{$fa-css-prefix}-caret-up:before { content: $fa-var-caret-up; }
-.#{$fa-css-prefix}-caret-left:before { content: $fa-var-caret-left; }
-.#{$fa-css-prefix}-caret-right:before { content: $fa-var-caret-right; }
-.#{$fa-css-prefix}-columns:before { content: $fa-var-columns; }
-.#{$fa-css-prefix}-unsorted:before,
-.#{$fa-css-prefix}-sort:before { content: $fa-var-sort; }
-.#{$fa-css-prefix}-sort-down:before,
-.#{$fa-css-prefix}-sort-desc:before { content: $fa-var-sort-desc; }
-.#{$fa-css-prefix}-sort-up:before,
-.#{$fa-css-prefix}-sort-asc:before { content: $fa-var-sort-asc; }
-.#{$fa-css-prefix}-envelope:before { content: $fa-var-envelope; }
-.#{$fa-css-prefix}-linkedin:before { content: $fa-var-linkedin; }
-.#{$fa-css-prefix}-rotate-left:before,
-.#{$fa-css-prefix}-undo:before { content: $fa-var-undo; }
-.#{$fa-css-prefix}-legal:before,
-.#{$fa-css-prefix}-gavel:before { content: $fa-var-gavel; }
-.#{$fa-css-prefix}-dashboard:before,
-.#{$fa-css-prefix}-tachometer:before { content: $fa-var-tachometer; }
-.#{$fa-css-prefix}-comment-o:before { content: $fa-var-comment-o; }
-.#{$fa-css-prefix}-comments-o:before { content: $fa-var-comments-o; }
-.#{$fa-css-prefix}-flash:before,
-.#{$fa-css-prefix}-bolt:before { content: $fa-var-bolt; }
-.#{$fa-css-prefix}-sitemap:before { content: $fa-var-sitemap; }
-.#{$fa-css-prefix}-umbrella:before { content: $fa-var-umbrella; }
-.#{$fa-css-prefix}-paste:before,
-.#{$fa-css-prefix}-clipboard:before { content: $fa-var-clipboard; }
-.#{$fa-css-prefix}-lightbulb-o:before { content: $fa-var-lightbulb-o; }
-.#{$fa-css-prefix}-exchange:before { content: $fa-var-exchange; }
-.#{$fa-css-prefix}-cloud-download:before { content: $fa-var-cloud-download; }
-.#{$fa-css-prefix}-cloud-upload:before { content: $fa-var-cloud-upload; }
-.#{$fa-css-prefix}-user-md:before { content: $fa-var-user-md; }
-.#{$fa-css-prefix}-stethoscope:before { content: $fa-var-stethoscope; }
-.#{$fa-css-prefix}-suitcase:before { content: $fa-var-suitcase; }
-.#{$fa-css-prefix}-bell-o:before { content: $fa-var-bell-o; }
-.#{$fa-css-prefix}-coffee:before { content: $fa-var-coffee; }
-.#{$fa-css-prefix}-cutlery:before { content: $fa-var-cutlery; }
-.#{$fa-css-prefix}-file-text-o:before { content: $fa-var-file-text-o; }
-.#{$fa-css-prefix}-building-o:before { content: $fa-var-building-o; }
-.#{$fa-css-prefix}-hospital-o:before { content: $fa-var-hospital-o; }
-.#{$fa-css-prefix}-ambulance:before { content: $fa-var-ambulance; }
-.#{$fa-css-prefix}-medkit:before { content: $fa-var-medkit; }
-.#{$fa-css-prefix}-fighter-jet:before { content: $fa-var-fighter-jet; }
-.#{$fa-css-prefix}-beer:before { content: $fa-var-beer; }
-.#{$fa-css-prefix}-h-square:before { content: $fa-var-h-square; }
-.#{$fa-css-prefix}-plus-square:before { content: $fa-var-plus-square; }
-.#{$fa-css-prefix}-angle-double-left:before { content: $fa-var-angle-double-left; }
-.#{$fa-css-prefix}-angle-double-right:before { content: $fa-var-angle-double-right; }
-.#{$fa-css-prefix}-angle-double-up:before { content: $fa-var-angle-double-up; }
-.#{$fa-css-prefix}-angle-double-down:before { content: $fa-var-angle-double-down; }
-.#{$fa-css-prefix}-angle-left:before { content: $fa-var-angle-left; }
-.#{$fa-css-prefix}-angle-right:before { content: $fa-var-angle-right; }
-.#{$fa-css-prefix}-angle-up:before { content: $fa-var-angle-up; }
-.#{$fa-css-prefix}-angle-down:before { content: $fa-var-angle-down; }
-.#{$fa-css-prefix}-desktop:before { content: $fa-var-desktop; }
-.#{$fa-css-prefix}-laptop:before { content: $fa-var-laptop; }
-.#{$fa-css-prefix}-tablet:before { content: $fa-var-tablet; }
-.#{$fa-css-prefix}-mobile-phone:before,
-.#{$fa-css-prefix}-mobile:before { content: $fa-var-mobile; }
-.#{$fa-css-prefix}-circle-o:before { content: $fa-var-circle-o; }
-.#{$fa-css-prefix}-quote-left:before { content: $fa-var-quote-left; }
-.#{$fa-css-prefix}-quote-right:before { content: $fa-var-quote-right; }
-.#{$fa-css-prefix}-spinner:before { content: $fa-var-spinner; }
-.#{$fa-css-prefix}-circle:before { content: $fa-var-circle; }
-.#{$fa-css-prefix}-mail-reply:before,
-.#{$fa-css-prefix}-reply:before { content: $fa-var-reply; }
-.#{$fa-css-prefix}-github-alt:before { content: $fa-var-github-alt; }
-.#{$fa-css-prefix}-folder-o:before { content: $fa-var-folder-o; }
-.#{$fa-css-prefix}-folder-open-o:before { content: $fa-var-folder-open-o; }
-.#{$fa-css-prefix}-smile-o:before { content: $fa-var-smile-o; }
-.#{$fa-css-prefix}-frown-o:before { content: $fa-var-frown-o; }
-.#{$fa-css-prefix}-meh-o:before { content: $fa-var-meh-o; }
-.#{$fa-css-prefix}-gamepad:before { content: $fa-var-gamepad; }
-.#{$fa-css-prefix}-keyboard-o:before { content: $fa-var-keyboard-o; }
-.#{$fa-css-prefix}-flag-o:before { content: $fa-var-flag-o; }
-.#{$fa-css-prefix}-flag-checkered:before { content: $fa-var-flag-checkered; }
-.#{$fa-css-prefix}-terminal:before { content: $fa-var-terminal; }
-.#{$fa-css-prefix}-code:before { content: $fa-var-code; }
-.#{$fa-css-prefix}-mail-reply-all:before,
-.#{$fa-css-prefix}-reply-all:before { content: $fa-var-reply-all; }
-.#{$fa-css-prefix}-star-half-empty:before,
-.#{$fa-css-prefix}-star-half-full:before,
-.#{$fa-css-prefix}-star-half-o:before { content: $fa-var-star-half-o; }
-.#{$fa-css-prefix}-location-arrow:before { content: $fa-var-location-arrow; }
-.#{$fa-css-prefix}-crop:before { content: $fa-var-crop; }
-.#{$fa-css-prefix}-code-fork:before { content: $fa-var-code-fork; }
-.#{$fa-css-prefix}-unlink:before,
-.#{$fa-css-prefix}-chain-broken:before { content: $fa-var-chain-broken; }
-.#{$fa-css-prefix}-question:before { content: $fa-var-question; }
-.#{$fa-css-prefix}-info:before { content: $fa-var-info; }
-.#{$fa-css-prefix}-exclamation:before { content: $fa-var-exclamation; }
-.#{$fa-css-prefix}-superscript:before { content: $fa-var-superscript; }
-.#{$fa-css-prefix}-subscript:before { content: $fa-var-subscript; }
-.#{$fa-css-prefix}-eraser:before { content: $fa-var-eraser; }
-.#{$fa-css-prefix}-puzzle-piece:before { content: $fa-var-puzzle-piece; }
-.#{$fa-css-prefix}-microphone:before { content: $fa-var-microphone; }
-.#{$fa-css-prefix}-microphone-slash:before { content: $fa-var-microphone-slash; }
-.#{$fa-css-prefix}-shield:before { content: $fa-var-shield; }
-.#{$fa-css-prefix}-calendar-o:before { content: $fa-var-calendar-o; }
-.#{$fa-css-prefix}-fire-extinguisher:before { content: $fa-var-fire-extinguisher; }
-.#{$fa-css-prefix}-rocket:before { content: $fa-var-rocket; }
-.#{$fa-css-prefix}-maxcdn:before { content: $fa-var-maxcdn; }
-.#{$fa-css-prefix}-chevron-circle-left:before { content: $fa-var-chevron-circle-left; }
-.#{$fa-css-prefix}-chevron-circle-right:before { content: $fa-var-chevron-circle-right; }
-.#{$fa-css-prefix}-chevron-circle-up:before { content: $fa-var-chevron-circle-up; }
-.#{$fa-css-prefix}-chevron-circle-down:before { content: $fa-var-chevron-circle-down; }
-.#{$fa-css-prefix}-html5:before { content: $fa-var-html5; }
-.#{$fa-css-prefix}-css3:before { content: $fa-var-css3; }
-.#{$fa-css-prefix}-anchor:before { content: $fa-var-anchor; }
-.#{$fa-css-prefix}-unlock-alt:before { content: $fa-var-unlock-alt; }
-.#{$fa-css-prefix}-bullseye:before { content: $fa-var-bullseye; }
-.#{$fa-css-prefix}-ellipsis-h:before { content: $fa-var-ellipsis-h; }
-.#{$fa-css-prefix}-ellipsis-v:before { content: $fa-var-ellipsis-v; }
-.#{$fa-css-prefix}-rss-square:before { content: $fa-var-rss-square; }
-.#{$fa-css-prefix}-play-circle:before { content: $fa-var-play-circle; }
-.#{$fa-css-prefix}-ticket:before { content: $fa-var-ticket; }
-.#{$fa-css-prefix}-minus-square:before { content: $fa-var-minus-square; }
-.#{$fa-css-prefix}-minus-square-o:before { content: $fa-var-minus-square-o; }
-.#{$fa-css-prefix}-level-up:before { content: $fa-var-level-up; }
-.#{$fa-css-prefix}-level-down:before { content: $fa-var-level-down; }
-.#{$fa-css-prefix}-check-square:before { content: $fa-var-check-square; }
-.#{$fa-css-prefix}-pencil-square:before { content: $fa-var-pencil-square; }
-.#{$fa-css-prefix}-external-link-square:before { content: $fa-var-external-link-square; }
-.#{$fa-css-prefix}-share-square:before { content: $fa-var-share-square; }
-.#{$fa-css-prefix}-compass:before { content: $fa-var-compass; }
-.#{$fa-css-prefix}-toggle-down:before,
-.#{$fa-css-prefix}-caret-square-o-down:before { content: $fa-var-caret-square-o-down; }
-.#{$fa-css-prefix}-toggle-up:before,
-.#{$fa-css-prefix}-caret-square-o-up:before { content: $fa-var-caret-square-o-up; }
-.#{$fa-css-prefix}-toggle-right:before,
-.#{$fa-css-prefix}-caret-square-o-right:before { content: $fa-var-caret-square-o-right; }
-.#{$fa-css-prefix}-euro:before,
-.#{$fa-css-prefix}-eur:before { content: $fa-var-eur; }
-.#{$fa-css-prefix}-gbp:before { content: $fa-var-gbp; }
-.#{$fa-css-prefix}-dollar:before,
-.#{$fa-css-prefix}-usd:before { content: $fa-var-usd; }
-.#{$fa-css-prefix}-rupee:before,
-.#{$fa-css-prefix}-inr:before { content: $fa-var-inr; }
-.#{$fa-css-prefix}-cny:before,
-.#{$fa-css-prefix}-rmb:before,
-.#{$fa-css-prefix}-yen:before,
-.#{$fa-css-prefix}-jpy:before { content: $fa-var-jpy; }
-.#{$fa-css-prefix}-ruble:before,
-.#{$fa-css-prefix}-rouble:before,
-.#{$fa-css-prefix}-rub:before { content: $fa-var-rub; }
-.#{$fa-css-prefix}-won:before,
-.#{$fa-css-prefix}-krw:before { content: $fa-var-krw; }
-.#{$fa-css-prefix}-bitcoin:before,
-.#{$fa-css-prefix}-btc:before { content: $fa-var-btc; }
-.#{$fa-css-prefix}-file:before { content: $fa-var-file; }
-.#{$fa-css-prefix}-file-text:before { content: $fa-var-file-text; }
-.#{$fa-css-prefix}-sort-alpha-asc:before { content: $fa-var-sort-alpha-asc; }
-.#{$fa-css-prefix}-sort-alpha-desc:before { content: $fa-var-sort-alpha-desc; }
-.#{$fa-css-prefix}-sort-amount-asc:before { content: $fa-var-sort-amount-asc; }
-.#{$fa-css-prefix}-sort-amount-desc:before { content: $fa-var-sort-amount-desc; }
-.#{$fa-css-prefix}-sort-numeric-asc:before { content: $fa-var-sort-numeric-asc; }
-.#{$fa-css-prefix}-sort-numeric-desc:before { content: $fa-var-sort-numeric-desc; }
-.#{$fa-css-prefix}-thumbs-up:before { content: $fa-var-thumbs-up; }
-.#{$fa-css-prefix}-thumbs-down:before { content: $fa-var-thumbs-down; }
-.#{$fa-css-prefix}-youtube-square:before { content: $fa-var-youtube-square; }
-.#{$fa-css-prefix}-youtube:before { content: $fa-var-youtube; }
-.#{$fa-css-prefix}-xing:before { content: $fa-var-xing; }
-.#{$fa-css-prefix}-xing-square:before { content: $fa-var-xing-square; }
-.#{$fa-css-prefix}-youtube-play:before { content: $fa-var-youtube-play; }
-.#{$fa-css-prefix}-dropbox:before { content: $fa-var-dropbox; }
-.#{$fa-css-prefix}-stack-overflow:before { content: $fa-var-stack-overflow; }
-.#{$fa-css-prefix}-instagram:before { content: $fa-var-instagram; }
-.#{$fa-css-prefix}-flickr:before { content: $fa-var-flickr; }
-.#{$fa-css-prefix}-adn:before { content: $fa-var-adn; }
-.#{$fa-css-prefix}-bitbucket:before { content: $fa-var-bitbucket; }
-.#{$fa-css-prefix}-bitbucket-square:before { content: $fa-var-bitbucket-square; }
-.#{$fa-css-prefix}-tumblr:before { content: $fa-var-tumblr; }
-.#{$fa-css-prefix}-tumblr-square:before { content: $fa-var-tumblr-square; }
-.#{$fa-css-prefix}-long-arrow-down:before { content: $fa-var-long-arrow-down; }
-.#{$fa-css-prefix}-long-arrow-up:before { content: $fa-var-long-arrow-up; }
-.#{$fa-css-prefix}-long-arrow-left:before { content: $fa-var-long-arrow-left; }
-.#{$fa-css-prefix}-long-arrow-right:before { content: $fa-var-long-arrow-right; }
-.#{$fa-css-prefix}-apple:before { content: $fa-var-apple; }
-.#{$fa-css-prefix}-windows:before { content: $fa-var-windows; }
-.#{$fa-css-prefix}-android:before { content: $fa-var-android; }
-.#{$fa-css-prefix}-linux:before { content: $fa-var-linux; }
-.#{$fa-css-prefix}-dribbble:before { content: $fa-var-dribbble; }
-.#{$fa-css-prefix}-skype:before { content: $fa-var-skype; }
-.#{$fa-css-prefix}-foursquare:before { content: $fa-var-foursquare; }
-.#{$fa-css-prefix}-trello:before { content: $fa-var-trello; }
-.#{$fa-css-prefix}-female:before { content: $fa-var-female; }
-.#{$fa-css-prefix}-male:before { content: $fa-var-male; }
-.#{$fa-css-prefix}-gittip:before,
-.#{$fa-css-prefix}-gratipay:before { content: $fa-var-gratipay; }
-.#{$fa-css-prefix}-sun-o:before { content: $fa-var-sun-o; }
-.#{$fa-css-prefix}-moon-o:before { content: $fa-var-moon-o; }
-.#{$fa-css-prefix}-archive:before { content: $fa-var-archive; }
-.#{$fa-css-prefix}-bug:before { content: $fa-var-bug; }
-.#{$fa-css-prefix}-vk:before { content: $fa-var-vk; }
-.#{$fa-css-prefix}-weibo:before { content: $fa-var-weibo; }
-.#{$fa-css-prefix}-renren:before { content: $fa-var-renren; }
-.#{$fa-css-prefix}-pagelines:before { content: $fa-var-pagelines; }
-.#{$fa-css-prefix}-stack-exchange:before { content: $fa-var-stack-exchange; }
-.#{$fa-css-prefix}-arrow-circle-o-right:before { content: $fa-var-arrow-circle-o-right; }
-.#{$fa-css-prefix}-arrow-circle-o-left:before { content: $fa-var-arrow-circle-o-left; }
-.#{$fa-css-prefix}-toggle-left:before,
-.#{$fa-css-prefix}-caret-square-o-left:before { content: $fa-var-caret-square-o-left; }
-.#{$fa-css-prefix}-dot-circle-o:before { content: $fa-var-dot-circle-o; }
-.#{$fa-css-prefix}-wheelchair:before { content: $fa-var-wheelchair; }
-.#{$fa-css-prefix}-vimeo-square:before { content: $fa-var-vimeo-square; }
-.#{$fa-css-prefix}-turkish-lira:before,
-.#{$fa-css-prefix}-try:before { content: $fa-var-try; }
-.#{$fa-css-prefix}-plus-square-o:before { content: $fa-var-plus-square-o; }
-.#{$fa-css-prefix}-space-shuttle:before { content: $fa-var-space-shuttle; }
-.#{$fa-css-prefix}-slack:before { content: $fa-var-slack; }
-.#{$fa-css-prefix}-envelope-square:before { content: $fa-var-envelope-square; }
-.#{$fa-css-prefix}-wordpress:before { content: $fa-var-wordpress; }
-.#{$fa-css-prefix}-openid:before { content: $fa-var-openid; }
-.#{$fa-css-prefix}-institution:before,
-.#{$fa-css-prefix}-bank:before,
-.#{$fa-css-prefix}-university:before { content: $fa-var-university; }
-.#{$fa-css-prefix}-mortar-board:before,
-.#{$fa-css-prefix}-graduation-cap:before { content: $fa-var-graduation-cap; }
-.#{$fa-css-prefix}-yahoo:before { content: $fa-var-yahoo; }
-.#{$fa-css-prefix}-google:before { content: $fa-var-google; }
-.#{$fa-css-prefix}-reddit:before { content: $fa-var-reddit; }
-.#{$fa-css-prefix}-reddit-square:before { content: $fa-var-reddit-square; }
-.#{$fa-css-prefix}-stumbleupon-circle:before { content: $fa-var-stumbleupon-circle; }
-.#{$fa-css-prefix}-stumbleupon:before { content: $fa-var-stumbleupon; }
-.#{$fa-css-prefix}-delicious:before { content: $fa-var-delicious; }
-.#{$fa-css-prefix}-digg:before { content: $fa-var-digg; }
-.#{$fa-css-prefix}-pied-piper-pp:before { content: $fa-var-pied-piper-pp; }
-.#{$fa-css-prefix}-pied-piper-alt:before { content: $fa-var-pied-piper-alt; }
-.#{$fa-css-prefix}-drupal:before { content: $fa-var-drupal; }
-.#{$fa-css-prefix}-joomla:before { content: $fa-var-joomla; }
-.#{$fa-css-prefix}-language:before { content: $fa-var-language; }
-.#{$fa-css-prefix}-fax:before { content: $fa-var-fax; }
-.#{$fa-css-prefix}-building:before { content: $fa-var-building; }
-.#{$fa-css-prefix}-child:before { content: $fa-var-child; }
-.#{$fa-css-prefix}-paw:before { content: $fa-var-paw; }
-.#{$fa-css-prefix}-spoon:before { content: $fa-var-spoon; }
-.#{$fa-css-prefix}-cube:before { content: $fa-var-cube; }
-.#{$fa-css-prefix}-cubes:before { content: $fa-var-cubes; }
-.#{$fa-css-prefix}-behance:before { content: $fa-var-behance; }
-.#{$fa-css-prefix}-behance-square:before { content: $fa-var-behance-square; }
-.#{$fa-css-prefix}-steam:before { content: $fa-var-steam; }
-.#{$fa-css-prefix}-steam-square:before { content: $fa-var-steam-square; }
-.#{$fa-css-prefix}-recycle:before { content: $fa-var-recycle; }
-.#{$fa-css-prefix}-automobile:before,
-.#{$fa-css-prefix}-car:before { content: $fa-var-car; }
-.#{$fa-css-prefix}-cab:before,
-.#{$fa-css-prefix}-taxi:before { content: $fa-var-taxi; }
-.#{$fa-css-prefix}-tree:before { content: $fa-var-tree; }
-.#{$fa-css-prefix}-spotify:before { content: $fa-var-spotify; }
-.#{$fa-css-prefix}-deviantart:before { content: $fa-var-deviantart; }
-.#{$fa-css-prefix}-soundcloud:before { content: $fa-var-soundcloud; }
-.#{$fa-css-prefix}-database:before { content: $fa-var-database; }
-.#{$fa-css-prefix}-file-pdf-o:before { content: $fa-var-file-pdf-o; }
-.#{$fa-css-prefix}-file-word-o:before { content: $fa-var-file-word-o; }
-.#{$fa-css-prefix}-file-excel-o:before { content: $fa-var-file-excel-o; }
-.#{$fa-css-prefix}-file-powerpoint-o:before { content: $fa-var-file-powerpoint-o; }
-.#{$fa-css-prefix}-file-photo-o:before,
-.#{$fa-css-prefix}-file-picture-o:before,
-.#{$fa-css-prefix}-file-image-o:before { content: $fa-var-file-image-o; }
-.#{$fa-css-prefix}-file-zip-o:before,
-.#{$fa-css-prefix}-file-archive-o:before { content: $fa-var-file-archive-o; }
-.#{$fa-css-prefix}-file-sound-o:before,
-.#{$fa-css-prefix}-file-audio-o:before { content: $fa-var-file-audio-o; }
-.#{$fa-css-prefix}-file-movie-o:before,
-.#{$fa-css-prefix}-file-video-o:before { content: $fa-var-file-video-o; }
-.#{$fa-css-prefix}-file-code-o:before { content: $fa-var-file-code-o; }
-.#{$fa-css-prefix}-vine:before { content: $fa-var-vine; }
-.#{$fa-css-prefix}-codepen:before { content: $fa-var-codepen; }
-.#{$fa-css-prefix}-jsfiddle:before { content: $fa-var-jsfiddle; }
-.#{$fa-css-prefix}-life-bouy:before,
-.#{$fa-css-prefix}-life-buoy:before,
-.#{$fa-css-prefix}-life-saver:before,
-.#{$fa-css-prefix}-support:before,
-.#{$fa-css-prefix}-life-ring:before { content: $fa-var-life-ring; }
-.#{$fa-css-prefix}-circle-o-notch:before { content: $fa-var-circle-o-notch; }
-.#{$fa-css-prefix}-ra:before,
-.#{$fa-css-prefix}-resistance:before,
-.#{$fa-css-prefix}-rebel:before { content: $fa-var-rebel; }
-.#{$fa-css-prefix}-ge:before,
-.#{$fa-css-prefix}-empire:before { content: $fa-var-empire; }
-.#{$fa-css-prefix}-git-square:before { content: $fa-var-git-square; }
-.#{$fa-css-prefix}-git:before { content: $fa-var-git; }
-.#{$fa-css-prefix}-y-combinator-square:before,
-.#{$fa-css-prefix}-yc-square:before,
-.#{$fa-css-prefix}-hacker-news:before { content: $fa-var-hacker-news; }
-.#{$fa-css-prefix}-tencent-weibo:before { content: $fa-var-tencent-weibo; }
-.#{$fa-css-prefix}-qq:before { content: $fa-var-qq; }
-.#{$fa-css-prefix}-wechat:before,
-.#{$fa-css-prefix}-weixin:before { content: $fa-var-weixin; }
-.#{$fa-css-prefix}-send:before,
-.#{$fa-css-prefix}-paper-plane:before { content: $fa-var-paper-plane; }
-.#{$fa-css-prefix}-send-o:before,
-.#{$fa-css-prefix}-paper-plane-o:before { content: $fa-var-paper-plane-o; }
-.#{$fa-css-prefix}-history:before { content: $fa-var-history; }
-.#{$fa-css-prefix}-circle-thin:before { content: $fa-var-circle-thin; }
-.#{$fa-css-prefix}-header:before { content: $fa-var-header; }
-.#{$fa-css-prefix}-paragraph:before { content: $fa-var-paragraph; }
-.#{$fa-css-prefix}-sliders:before { content: $fa-var-sliders; }
-.#{$fa-css-prefix}-share-alt:before { content: $fa-var-share-alt; }
-.#{$fa-css-prefix}-share-alt-square:before { content: $fa-var-share-alt-square; }
-.#{$fa-css-prefix}-bomb:before { content: $fa-var-bomb; }
-.#{$fa-css-prefix}-soccer-ball-o:before,
-.#{$fa-css-prefix}-futbol-o:before { content: $fa-var-futbol-o; }
-.#{$fa-css-prefix}-tty:before { content: $fa-var-tty; }
-.#{$fa-css-prefix}-binoculars:before { content: $fa-var-binoculars; }
-.#{$fa-css-prefix}-plug:before { content: $fa-var-plug; }
-.#{$fa-css-prefix}-slideshare:before { content: $fa-var-slideshare; }
-.#{$fa-css-prefix}-twitch:before { content: $fa-var-twitch; }
-.#{$fa-css-prefix}-yelp:before { content: $fa-var-yelp; }
-.#{$fa-css-prefix}-newspaper-o:before { content: $fa-var-newspaper-o; }
-.#{$fa-css-prefix}-wifi:before { content: $fa-var-wifi; }
-.#{$fa-css-prefix}-calculator:before { content: $fa-var-calculator; }
-.#{$fa-css-prefix}-paypal:before { content: $fa-var-paypal; }
-.#{$fa-css-prefix}-google-wallet:before { content: $fa-var-google-wallet; }
-.#{$fa-css-prefix}-cc-visa:before { content: $fa-var-cc-visa; }
-.#{$fa-css-prefix}-cc-mastercard:before { content: $fa-var-cc-mastercard; }
-.#{$fa-css-prefix}-cc-discover:before { content: $fa-var-cc-discover; }
-.#{$fa-css-prefix}-cc-amex:before { content: $fa-var-cc-amex; }
-.#{$fa-css-prefix}-cc-paypal:before { content: $fa-var-cc-paypal; }
-.#{$fa-css-prefix}-cc-stripe:before { content: $fa-var-cc-stripe; }
-.#{$fa-css-prefix}-bell-slash:before { content: $fa-var-bell-slash; }
-.#{$fa-css-prefix}-bell-slash-o:before { content: $fa-var-bell-slash-o; }
-.#{$fa-css-prefix}-trash:before { content: $fa-var-trash; }
-.#{$fa-css-prefix}-copyright:before { content: $fa-var-copyright; }
-.#{$fa-css-prefix}-at:before { content: $fa-var-at; }
-.#{$fa-css-prefix}-eyedropper:before { content: $fa-var-eyedropper; }
-.#{$fa-css-prefix}-paint-brush:before { content: $fa-var-paint-brush; }
-.#{$fa-css-prefix}-birthday-cake:before { content: $fa-var-birthday-cake; }
-.#{$fa-css-prefix}-area-chart:before { content: $fa-var-area-chart; }
-.#{$fa-css-prefix}-pie-chart:before { content: $fa-var-pie-chart; }
-.#{$fa-css-prefix}-line-chart:before { content: $fa-var-line-chart; }
-.#{$fa-css-prefix}-lastfm:before { content: $fa-var-lastfm; }
-.#{$fa-css-prefix}-lastfm-square:before { content: $fa-var-lastfm-square; }
-.#{$fa-css-prefix}-toggle-off:before { content: $fa-var-toggle-off; }
-.#{$fa-css-prefix}-toggle-on:before { content: $fa-var-toggle-on; }
-.#{$fa-css-prefix}-bicycle:before { content: $fa-var-bicycle; }
-.#{$fa-css-prefix}-bus:before { content: $fa-var-bus; }
-.#{$fa-css-prefix}-ioxhost:before { content: $fa-var-ioxhost; }
-.#{$fa-css-prefix}-angellist:before { content: $fa-var-angellist; }
-.#{$fa-css-prefix}-cc:before { content: $fa-var-cc; }
-.#{$fa-css-prefix}-shekel:before,
-.#{$fa-css-prefix}-sheqel:before,
-.#{$fa-css-prefix}-ils:before { content: $fa-var-ils; }
-.#{$fa-css-prefix}-meanpath:before { content: $fa-var-meanpath; }
-.#{$fa-css-prefix}-buysellads:before { content: $fa-var-buysellads; }
-.#{$fa-css-prefix}-connectdevelop:before { content: $fa-var-connectdevelop; }
-.#{$fa-css-prefix}-dashcube:before { content: $fa-var-dashcube; }
-.#{$fa-css-prefix}-forumbee:before { content: $fa-var-forumbee; }
-.#{$fa-css-prefix}-leanpub:before { content: $fa-var-leanpub; }
-.#{$fa-css-prefix}-sellsy:before { content: $fa-var-sellsy; }
-.#{$fa-css-prefix}-shirtsinbulk:before { content: $fa-var-shirtsinbulk; }
-.#{$fa-css-prefix}-simplybuilt:before { content: $fa-var-simplybuilt; }
-.#{$fa-css-prefix}-skyatlas:before { content: $fa-var-skyatlas; }
-.#{$fa-css-prefix}-cart-plus:before { content: $fa-var-cart-plus; }
-.#{$fa-css-prefix}-cart-arrow-down:before { content: $fa-var-cart-arrow-down; }
-.#{$fa-css-prefix}-diamond:before { content: $fa-var-diamond; }
-.#{$fa-css-prefix}-ship:before { content: $fa-var-ship; }
-.#{$fa-css-prefix}-user-secret:before { content: $fa-var-user-secret; }
-.#{$fa-css-prefix}-motorcycle:before { content: $fa-var-motorcycle; }
-.#{$fa-css-prefix}-street-view:before { content: $fa-var-street-view; }
-.#{$fa-css-prefix}-heartbeat:before { content: $fa-var-heartbeat; }
-.#{$fa-css-prefix}-venus:before { content: $fa-var-venus; }
-.#{$fa-css-prefix}-mars:before { content: $fa-var-mars; }
-.#{$fa-css-prefix}-mercury:before { content: $fa-var-mercury; }
-.#{$fa-css-prefix}-intersex:before,
-.#{$fa-css-prefix}-transgender:before { content: $fa-var-transgender; }
-.#{$fa-css-prefix}-transgender-alt:before { content: $fa-var-transgender-alt; }
-.#{$fa-css-prefix}-venus-double:before { content: $fa-var-venus-double; }
-.#{$fa-css-prefix}-mars-double:before { content: $fa-var-mars-double; }
-.#{$fa-css-prefix}-venus-mars:before { content: $fa-var-venus-mars; }
-.#{$fa-css-prefix}-mars-stroke:before { content: $fa-var-mars-stroke; }
-.#{$fa-css-prefix}-mars-stroke-v:before { content: $fa-var-mars-stroke-v; }
-.#{$fa-css-prefix}-mars-stroke-h:before { content: $fa-var-mars-stroke-h; }
-.#{$fa-css-prefix}-neuter:before { content: $fa-var-neuter; }
-.#{$fa-css-prefix}-genderless:before { content: $fa-var-genderless; }
-.#{$fa-css-prefix}-facebook-official:before { content: $fa-var-facebook-official; }
-.#{$fa-css-prefix}-pinterest-p:before { content: $fa-var-pinterest-p; }
-.#{$fa-css-prefix}-whatsapp:before { content: $fa-var-whatsapp; }
-.#{$fa-css-prefix}-server:before { content: $fa-var-server; }
-.#{$fa-css-prefix}-user-plus:before { content: $fa-var-user-plus; }
-.#{$fa-css-prefix}-user-times:before { content: $fa-var-user-times; }
-.#{$fa-css-prefix}-hotel:before,
-.#{$fa-css-prefix}-bed:before { content: $fa-var-bed; }
-.#{$fa-css-prefix}-viacoin:before { content: $fa-var-viacoin; }
-.#{$fa-css-prefix}-train:before { content: $fa-var-train; }
-.#{$fa-css-prefix}-subway:before { content: $fa-var-subway; }
-.#{$fa-css-prefix}-medium:before { content: $fa-var-medium; }
-.#{$fa-css-prefix}-yc:before,
-.#{$fa-css-prefix}-y-combinator:before { content: $fa-var-y-combinator; }
-.#{$fa-css-prefix}-optin-monster:before { content: $fa-var-optin-monster; }
-.#{$fa-css-prefix}-opencart:before { content: $fa-var-opencart; }
-.#{$fa-css-prefix}-expeditedssl:before { content: $fa-var-expeditedssl; }
-.#{$fa-css-prefix}-battery-4:before,
-.#{$fa-css-prefix}-battery:before,
-.#{$fa-css-prefix}-battery-full:before { content: $fa-var-battery-full; }
-.#{$fa-css-prefix}-battery-3:before,
-.#{$fa-css-prefix}-battery-three-quarters:before { content: $fa-var-battery-three-quarters; }
-.#{$fa-css-prefix}-battery-2:before,
-.#{$fa-css-prefix}-battery-half:before { content: $fa-var-battery-half; }
-.#{$fa-css-prefix}-battery-1:before,
-.#{$fa-css-prefix}-battery-quarter:before { content: $fa-var-battery-quarter; }
-.#{$fa-css-prefix}-battery-0:before,
-.#{$fa-css-prefix}-battery-empty:before { content: $fa-var-battery-empty; }
-.#{$fa-css-prefix}-mouse-pointer:before { content: $fa-var-mouse-pointer; }
-.#{$fa-css-prefix}-i-cursor:before { content: $fa-var-i-cursor; }
-.#{$fa-css-prefix}-object-group:before { content: $fa-var-object-group; }
-.#{$fa-css-prefix}-object-ungroup:before { content: $fa-var-object-ungroup; }
-.#{$fa-css-prefix}-sticky-note:before { content: $fa-var-sticky-note; }
-.#{$fa-css-prefix}-sticky-note-o:before { content: $fa-var-sticky-note-o; }
-.#{$fa-css-prefix}-cc-jcb:before { content: $fa-var-cc-jcb; }
-.#{$fa-css-prefix}-cc-diners-club:before { content: $fa-var-cc-diners-club; }
-.#{$fa-css-prefix}-clone:before { content: $fa-var-clone; }
-.#{$fa-css-prefix}-balance-scale:before { content: $fa-var-balance-scale; }
-.#{$fa-css-prefix}-hourglass-o:before { content: $fa-var-hourglass-o; }
-.#{$fa-css-prefix}-hourglass-1:before,
-.#{$fa-css-prefix}-hourglass-start:before { content: $fa-var-hourglass-start; }
-.#{$fa-css-prefix}-hourglass-2:before,
-.#{$fa-css-prefix}-hourglass-half:before { content: $fa-var-hourglass-half; }
-.#{$fa-css-prefix}-hourglass-3:before,
-.#{$fa-css-prefix}-hourglass-end:before { content: $fa-var-hourglass-end; }
-.#{$fa-css-prefix}-hourglass:before { content: $fa-var-hourglass; }
-.#{$fa-css-prefix}-hand-grab-o:before,
-.#{$fa-css-prefix}-hand-rock-o:before { content: $fa-var-hand-rock-o; }
-.#{$fa-css-prefix}-hand-stop-o:before,
-.#{$fa-css-prefix}-hand-paper-o:before { content: $fa-var-hand-paper-o; }
-.#{$fa-css-prefix}-hand-scissors-o:before { content: $fa-var-hand-scissors-o; }
-.#{$fa-css-prefix}-hand-lizard-o:before { content: $fa-var-hand-lizard-o; }
-.#{$fa-css-prefix}-hand-spock-o:before { content: $fa-var-hand-spock-o; }
-.#{$fa-css-prefix}-hand-pointer-o:before { content: $fa-var-hand-pointer-o; }
-.#{$fa-css-prefix}-hand-peace-o:before { content: $fa-var-hand-peace-o; }
-.#{$fa-css-prefix}-trademark:before { content: $fa-var-trademark; }
-.#{$fa-css-prefix}-registered:before { content: $fa-var-registered; }
-.#{$fa-css-prefix}-creative-commons:before { content: $fa-var-creative-commons; }
-.#{$fa-css-prefix}-gg:before { content: $fa-var-gg; }
-.#{$fa-css-prefix}-gg-circle:before { content: $fa-var-gg-circle; }
-.#{$fa-css-prefix}-tripadvisor:before { content: $fa-var-tripadvisor; }
-.#{$fa-css-prefix}-odnoklassniki:before { content: $fa-var-odnoklassniki; }
-.#{$fa-css-prefix}-odnoklassniki-square:before { content: $fa-var-odnoklassniki-square; }
-.#{$fa-css-prefix}-get-pocket:before { content: $fa-var-get-pocket; }
-.#{$fa-css-prefix}-wikipedia-w:before { content: $fa-var-wikipedia-w; }
-.#{$fa-css-prefix}-safari:before { content: $fa-var-safari; }
-.#{$fa-css-prefix}-chrome:before { content: $fa-var-chrome; }
-.#{$fa-css-prefix}-firefox:before { content: $fa-var-firefox; }
-.#{$fa-css-prefix}-opera:before { content: $fa-var-opera; }
-.#{$fa-css-prefix}-internet-explorer:before { content: $fa-var-internet-explorer; }
-.#{$fa-css-prefix}-tv:before,
-.#{$fa-css-prefix}-television:before { content: $fa-var-television; }
-.#{$fa-css-prefix}-contao:before { content: $fa-var-contao; }
-.#{$fa-css-prefix}-500px:before { content: $fa-var-500px; }
-.#{$fa-css-prefix}-amazon:before { content: $fa-var-amazon; }
-.#{$fa-css-prefix}-calendar-plus-o:before { content: $fa-var-calendar-plus-o; }
-.#{$fa-css-prefix}-calendar-minus-o:before { content: $fa-var-calendar-minus-o; }
-.#{$fa-css-prefix}-calendar-times-o:before { content: $fa-var-calendar-times-o; }
-.#{$fa-css-prefix}-calendar-check-o:before { content: $fa-var-calendar-check-o; }
-.#{$fa-css-prefix}-industry:before { content: $fa-var-industry; }
-.#{$fa-css-prefix}-map-pin:before { content: $fa-var-map-pin; }
-.#{$fa-css-prefix}-map-signs:before { content: $fa-var-map-signs; }
-.#{$fa-css-prefix}-map-o:before { content: $fa-var-map-o; }
-.#{$fa-css-prefix}-map:before { content: $fa-var-map; }
-.#{$fa-css-prefix}-commenting:before { content: $fa-var-commenting; }
-.#{$fa-css-prefix}-commenting-o:before { content: $fa-var-commenting-o; }
-.#{$fa-css-prefix}-houzz:before { content: $fa-var-houzz; }
-.#{$fa-css-prefix}-vimeo:before { content: $fa-var-vimeo; }
-.#{$fa-css-prefix}-black-tie:before { content: $fa-var-black-tie; }
-.#{$fa-css-prefix}-fonticons:before { content: $fa-var-fonticons; }
-.#{$fa-css-prefix}-reddit-alien:before { content: $fa-var-reddit-alien; }
-.#{$fa-css-prefix}-edge:before { content: $fa-var-edge; }
-.#{$fa-css-prefix}-credit-card-alt:before { content: $fa-var-credit-card-alt; }
-.#{$fa-css-prefix}-codiepie:before { content: $fa-var-codiepie; }
-.#{$fa-css-prefix}-modx:before { content: $fa-var-modx; }
-.#{$fa-css-prefix}-fort-awesome:before { content: $fa-var-fort-awesome; }
-.#{$fa-css-prefix}-usb:before { content: $fa-var-usb; }
-.#{$fa-css-prefix}-product-hunt:before { content: $fa-var-product-hunt; }
-.#{$fa-css-prefix}-mixcloud:before { content: $fa-var-mixcloud; }
-.#{$fa-css-prefix}-scribd:before { content: $fa-var-scribd; }
-.#{$fa-css-prefix}-pause-circle:before { content: $fa-var-pause-circle; }
-.#{$fa-css-prefix}-pause-circle-o:before { content: $fa-var-pause-circle-o; }
-.#{$fa-css-prefix}-stop-circle:before { content: $fa-var-stop-circle; }
-.#{$fa-css-prefix}-stop-circle-o:before { content: $fa-var-stop-circle-o; }
-.#{$fa-css-prefix}-shopping-bag:before { content: $fa-var-shopping-bag; }
-.#{$fa-css-prefix}-shopping-basket:before { content: $fa-var-shopping-basket; }
-.#{$fa-css-prefix}-hashtag:before { content: $fa-var-hashtag; }
-.#{$fa-css-prefix}-bluetooth:before { content: $fa-var-bluetooth; }
-.#{$fa-css-prefix}-bluetooth-b:before { content: $fa-var-bluetooth-b; }
-.#{$fa-css-prefix}-percent:before { content: $fa-var-percent; }
-.#{$fa-css-prefix}-gitlab:before { content: $fa-var-gitlab; }
-.#{$fa-css-prefix}-wpbeginner:before { content: $fa-var-wpbeginner; }
-.#{$fa-css-prefix}-wpforms:before { content: $fa-var-wpforms; }
-.#{$fa-css-prefix}-envira:before { content: $fa-var-envira; }
-.#{$fa-css-prefix}-universal-access:before { content: $fa-var-universal-access; }
-.#{$fa-css-prefix}-wheelchair-alt:before { content: $fa-var-wheelchair-alt; }
-.#{$fa-css-prefix}-question-circle-o:before { content: $fa-var-question-circle-o; }
-.#{$fa-css-prefix}-blind:before { content: $fa-var-blind; }
-.#{$fa-css-prefix}-audio-description:before { content: $fa-var-audio-description; }
-.#{$fa-css-prefix}-volume-control-phone:before { content: $fa-var-volume-control-phone; }
-.#{$fa-css-prefix}-braille:before { content: $fa-var-braille; }
-.#{$fa-css-prefix}-assistive-listening-systems:before { content: $fa-var-assistive-listening-systems; }
-.#{$fa-css-prefix}-asl-interpreting:before,
-.#{$fa-css-prefix}-american-sign-language-interpreting:before { content: $fa-var-american-sign-language-interpreting; }
-.#{$fa-css-prefix}-deafness:before,
-.#{$fa-css-prefix}-hard-of-hearing:before,
-.#{$fa-css-prefix}-deaf:before { content: $fa-var-deaf; }
-.#{$fa-css-prefix}-glide:before { content: $fa-var-glide; }
-.#{$fa-css-prefix}-glide-g:before { content: $fa-var-glide-g; }
-.#{$fa-css-prefix}-signing:before,
-.#{$fa-css-prefix}-sign-language:before { content: $fa-var-sign-language; }
-.#{$fa-css-prefix}-low-vision:before { content: $fa-var-low-vision; }
-.#{$fa-css-prefix}-viadeo:before { content: $fa-var-viadeo; }
-.#{$fa-css-prefix}-viadeo-square:before { content: $fa-var-viadeo-square; }
-.#{$fa-css-prefix}-snapchat:before { content: $fa-var-snapchat; }
-.#{$fa-css-prefix}-snapchat-ghost:before { content: $fa-var-snapchat-ghost; }
-.#{$fa-css-prefix}-snapchat-square:before { content: $fa-var-snapchat-square; }
-.#{$fa-css-prefix}-pied-piper:before { content: $fa-var-pied-piper; }
-.#{$fa-css-prefix}-first-order:before { content: $fa-var-first-order; }
-.#{$fa-css-prefix}-yoast:before { content: $fa-var-yoast; }
-.#{$fa-css-prefix}-themeisle:before { content: $fa-var-themeisle; }
-.#{$fa-css-prefix}-google-plus-circle:before,
-.#{$fa-css-prefix}-google-plus-official:before { content: $fa-var-google-plus-official; }
-.#{$fa-css-prefix}-fa:before,
-.#{$fa-css-prefix}-font-awesome:before { content: $fa-var-font-awesome; }
-.#{$fa-css-prefix}-handshake-o:before { content: $fa-var-handshake-o; }
-.#{$fa-css-prefix}-envelope-open:before { content: $fa-var-envelope-open; }
-.#{$fa-css-prefix}-envelope-open-o:before { content: $fa-var-envelope-open-o; }
-.#{$fa-css-prefix}-linode:before { content: $fa-var-linode; }
-.#{$fa-css-prefix}-address-book:before { content: $fa-var-address-book; }
-.#{$fa-css-prefix}-address-book-o:before { content: $fa-var-address-book-o; }
-.#{$fa-css-prefix}-vcard:before,
-.#{$fa-css-prefix}-address-card:before { content: $fa-var-address-card; }
-.#{$fa-css-prefix}-vcard-o:before,
-.#{$fa-css-prefix}-address-card-o:before { content: $fa-var-address-card-o; }
-.#{$fa-css-prefix}-user-circle:before { content: $fa-var-user-circle; }
-.#{$fa-css-prefix}-user-circle-o:before { content: $fa-var-user-circle-o; }
-.#{$fa-css-prefix}-user-o:before { content: $fa-var-user-o; }
-.#{$fa-css-prefix}-id-badge:before { content: $fa-var-id-badge; }
-.#{$fa-css-prefix}-drivers-license:before,
-.#{$fa-css-prefix}-id-card:before { content: $fa-var-id-card; }
-.#{$fa-css-prefix}-drivers-license-o:before,
-.#{$fa-css-prefix}-id-card-o:before { content: $fa-var-id-card-o; }
-.#{$fa-css-prefix}-quora:before { content: $fa-var-quora; }
-.#{$fa-css-prefix}-free-code-camp:before { content: $fa-var-free-code-camp; }
-.#{$fa-css-prefix}-telegram:before { content: $fa-var-telegram; }
-.#{$fa-css-prefix}-thermometer-4:before,
-.#{$fa-css-prefix}-thermometer:before,
-.#{$fa-css-prefix}-thermometer-full:before { content: $fa-var-thermometer-full; }
-.#{$fa-css-prefix}-thermometer-3:before,
-.#{$fa-css-prefix}-thermometer-three-quarters:before { content: $fa-var-thermometer-three-quarters; }
-.#{$fa-css-prefix}-thermometer-2:before,
-.#{$fa-css-prefix}-thermometer-half:before { content: $fa-var-thermometer-half; }
-.#{$fa-css-prefix}-thermometer-1:before,
-.#{$fa-css-prefix}-thermometer-quarter:before { content: $fa-var-thermometer-quarter; }
-.#{$fa-css-prefix}-thermometer-0:before,
-.#{$fa-css-prefix}-thermometer-empty:before { content: $fa-var-thermometer-empty; }
-.#{$fa-css-prefix}-shower:before { content: $fa-var-shower; }
-.#{$fa-css-prefix}-bathtub:before,
-.#{$fa-css-prefix}-s15:before,
-.#{$fa-css-prefix}-bath:before { content: $fa-var-bath; }
-.#{$fa-css-prefix}-podcast:before { content: $fa-var-podcast; }
-.#{$fa-css-prefix}-window-maximize:before { content: $fa-var-window-maximize; }
-.#{$fa-css-prefix}-window-minimize:before { content: $fa-var-window-minimize; }
-.#{$fa-css-prefix}-window-restore:before { content: $fa-var-window-restore; }
-.#{$fa-css-prefix}-times-rectangle:before,
-.#{$fa-css-prefix}-window-close:before { content: $fa-var-window-close; }
-.#{$fa-css-prefix}-times-rectangle-o:before,
-.#{$fa-css-prefix}-window-close-o:before { content: $fa-var-window-close-o; }
-.#{$fa-css-prefix}-bandcamp:before { content: $fa-var-bandcamp; }
-.#{$fa-css-prefix}-grav:before { content: $fa-var-grav; }
-.#{$fa-css-prefix}-etsy:before { content: $fa-var-etsy; }
-.#{$fa-css-prefix}-imdb:before { content: $fa-var-imdb; }
-.#{$fa-css-prefix}-ravelry:before { content: $fa-var-ravelry; }
-.#{$fa-css-prefix}-eercast:before { content: $fa-var-eercast; }
-.#{$fa-css-prefix}-microchip:before { content: $fa-var-microchip; }
-.#{$fa-css-prefix}-snowflake-o:before { content: $fa-var-snowflake-o; }
-.#{$fa-css-prefix}-superpowers:before { content: $fa-var-superpowers; }
-.#{$fa-css-prefix}-wpexplorer:before { content: $fa-var-wpexplorer; }
-.#{$fa-css-prefix}-meetup:before { content: $fa-var-meetup; }
+@include fa-ionic-icon(glass, $fa-var-glass);
+@include fa-ionic-icon(music, $fa-var-music);
+@include fa-ionic-icon(search, $fa-var-search);
+@include fa-ionic-icon(envelope-o, $fa-var-envelope-o);
+@include fa-ionic-icon(heart, $fa-var-heart);
+@include fa-ionic-icon(star, $fa-var-star);
+@include fa-ionic-icon(star-o, $fa-var-star-o);
+@include fa-ionic-icon(user, $fa-var-user);
+@include fa-ionic-icon(film, $fa-var-film);
+@include fa-ionic-icon(th-large, $fa-var-th-large);
+@include fa-ionic-icon(th, $fa-var-th);
+@include fa-ionic-icon(th-list, $fa-var-th-list);
+@include fa-ionic-icon(check, $fa-var-check);
+@include fa-ionic-icon(remove, $fa-var-times);
+@include fa-ionic-icon(close, $fa-var-times);
+@include fa-ionic-icon(times, $fa-var-times);
+@include fa-ionic-icon(search-plus, $fa-var-search-plus);
+@include fa-ionic-icon(search-minus, $fa-var-search-minus);
+@include fa-ionic-icon(power-off, $fa-var-power-off);
+@include fa-ionic-icon(signal, $fa-var-signal);
+@include fa-ionic-icon(gear, $fa-var-cog);
+@include fa-ionic-icon(cog, $fa-var-cog);
+@include fa-ionic-icon(trash-o, $fa-var-trash-o);
+@include fa-ionic-icon(home, $fa-var-home);
+@include fa-ionic-icon(file-o, $fa-var-file-o);
+@include fa-ionic-icon(clock-o, $fa-var-clock-o);
+@include fa-ionic-icon(road, $fa-var-road);
+@include fa-ionic-icon(download, $fa-var-download);
+@include fa-ionic-icon(arrow-circle-o-down, $fa-var-arrow-circle-o-down);
+@include fa-ionic-icon(arrow-circle-o-up, $fa-var-arrow-circle-o-up);
+@include fa-ionic-icon(inbox, $fa-var-inbox);
+@include fa-ionic-icon(play-circle-o, $fa-var-play-circle-o);
+@include fa-ionic-icon(rotate-right, $fa-var-repeat);
+@include fa-ionic-icon(repeat, $fa-var-repeat);
+@include fa-ionic-icon(refresh, $fa-var-refresh);
+@include fa-ionic-icon(list-alt, $fa-var-list-alt);
+@include fa-ionic-icon(lock, $fa-var-lock);
+@include fa-ionic-icon(flag, $fa-var-flag);
+@include fa-ionic-icon(headphones, $fa-var-headphones);
+@include fa-ionic-icon(volume-off, $fa-var-volume-off);
+@include fa-ionic-icon(volume-down, $fa-var-volume-down);
+@include fa-ionic-icon(volume-up, $fa-var-volume-up);
+@include fa-ionic-icon(qrcode, $fa-var-qrcode);
+@include fa-ionic-icon(barcode, $fa-var-barcode);
+@include fa-ionic-icon(tag, $fa-var-tag);
+@include fa-ionic-icon(tags, $fa-var-tags);
+@include fa-ionic-icon(book, $fa-var-book);
+@include fa-ionic-icon(bookmark, $fa-var-bookmark);
+@include fa-ionic-icon(print, $fa-var-print);
+@include fa-ionic-icon(camera, $fa-var-camera);
+@include fa-ionic-icon(font, $fa-var-font);
+@include fa-ionic-icon(bold, $fa-var-bold);
+@include fa-ionic-icon(italic, $fa-var-italic);
+@include fa-ionic-icon(text-height, $fa-var-text-height);
+@include fa-ionic-icon(text-width, $fa-var-text-width);
+@include fa-ionic-icon(align-left, $fa-var-align-left);
+@include fa-ionic-icon(align-center, $fa-var-align-center);
+@include fa-ionic-icon(align-right, $fa-var-align-right);
+@include fa-ionic-icon(align-justify, $fa-var-align-justify);
+@include fa-ionic-icon(list, $fa-var-list);
+@include fa-ionic-icon(dedent, $fa-var-outdent);
+@include fa-ionic-icon(outdent, $fa-var-outdent);
+@include fa-ionic-icon(indent, $fa-var-indent);
+@include fa-ionic-icon(video-camera, $fa-var-video-camera);
+@include fa-ionic-icon(photo, $fa-var-picture-o);
+@include fa-ionic-icon(image, $fa-var-picture-o);
+@include fa-ionic-icon(picture-o, $fa-var-picture-o);
+@include fa-ionic-icon(pencil, $fa-var-pencil);
+@include fa-ionic-icon(map-marker, $fa-var-map-marker);
+@include fa-ionic-icon(adjust, $fa-var-adjust);
+@include fa-ionic-icon(tint, $fa-var-tint);
+@include fa-ionic-icon(edit, $fa-var-pencil-square-o);
+@include fa-ionic-icon(pencil-square-o, $fa-var-pencil-square-o);
+@include fa-ionic-icon(share-square-o, $fa-var-share-square-o);
+@include fa-ionic-icon(check-square-o, $fa-var-check-square-o);
+@include fa-ionic-icon(arrows, $fa-var-arrows);
+@include fa-ionic-icon(step-backward, $fa-var-step-backward);
+@include fa-ionic-icon(fast-backward, $fa-var-fast-backward);
+@include fa-ionic-icon(backward, $fa-var-backward);
+@include fa-ionic-icon(play, $fa-var-play);
+@include fa-ionic-icon(pause, $fa-var-pause);
+@include fa-ionic-icon(stop, $fa-var-stop);
+@include fa-ionic-icon(forward, $fa-var-forward);
+@include fa-ionic-icon(fast-forward, $fa-var-fast-forward);
+@include fa-ionic-icon(step-forward, $fa-var-step-forward);
+@include fa-ionic-icon(eject, $fa-var-eject);
+@include fa-ionic-icon(chevron-left, $fa-var-chevron-left);
+@include fa-ionic-icon(chevron-right, $fa-var-chevron-right);
+@include fa-ionic-icon(plus-circle, $fa-var-plus-circle);
+@include fa-ionic-icon(minus-circle, $fa-var-minus-circle);
+@include fa-ionic-icon(times-circle, $fa-var-times-circle);
+@include fa-ionic-icon(check-circle, $fa-var-check-circle);
+@include fa-ionic-icon(question-circle, $fa-var-question-circle);
+@include fa-ionic-icon(info-circle, $fa-var-info-circle);
+@include fa-ionic-icon(crosshairs, $fa-var-crosshairs);
+@include fa-ionic-icon(times-circle-o, $fa-var-times-circle-o);
+@include fa-ionic-icon(check-circle-o, $fa-var-check-circle-o);
+@include fa-ionic-icon(ban, $fa-var-ban);
+@include fa-ionic-icon(arrow-left, $fa-var-arrow-left);
+@include fa-ionic-icon(arrow-right, $fa-var-arrow-right);
+@include fa-ionic-icon(arrow-up, $fa-var-arrow-up);
+@include fa-ionic-icon(arrow-down, $fa-var-arrow-down);
+@include fa-ionic-icon(mail-forward, $fa-var-share);
+@include fa-ionic-icon(share, $fa-var-share);
+@include fa-ionic-icon(expand, $fa-var-expand);
+@include fa-ionic-icon(compress, $fa-var-compress);
+@include fa-ionic-icon(plus, $fa-var-plus);
+@include fa-ionic-icon(minus, $fa-var-minus);
+@include fa-ionic-icon(asterisk, $fa-var-asterisk);
+@include fa-ionic-icon(exclamation-circle, $fa-var-exclamation-circle);
+@include fa-ionic-icon(gift, $fa-var-gift);
+@include fa-ionic-icon(leaf, $fa-var-leaf);
+@include fa-ionic-icon(fire, $fa-var-fire);
+@include fa-ionic-icon(eye, $fa-var-eye);
+@include fa-ionic-icon(eye-slash, $fa-var-eye-slash);
+@include fa-ionic-icon(warning, $fa-var-exclamation-triangle);
+@include fa-ionic-icon(exclamation-triangle, $fa-var-exclamation-triangle);
+@include fa-ionic-icon(plane, $fa-var-plane);
+@include fa-ionic-icon(calendar, $fa-var-calendar);
+@include fa-ionic-icon(random, $fa-var-random);
+@include fa-ionic-icon(comment, $fa-var-comment);
+@include fa-ionic-icon(magnet, $fa-var-magnet);
+@include fa-ionic-icon(chevron-up, $fa-var-chevron-up);
+@include fa-ionic-icon(chevron-down, $fa-var-chevron-down);
+@include fa-ionic-icon(retweet, $fa-var-retweet);
+@include fa-ionic-icon(shopping-cart, $fa-var-shopping-cart);
+@include fa-ionic-icon(folder, $fa-var-folder);
+@include fa-ionic-icon(folder-open, $fa-var-folder-open);
+@include fa-ionic-icon(arrows-v, $fa-var-arrows-v);
+@include fa-ionic-icon(arrows-h, $fa-var-arrows-h);
+@include fa-ionic-icon(bar-chart-o, $fa-var-bar-chart);
+@include fa-ionic-icon(bar-chart, $fa-var-bar-chart);
+@include fa-ionic-icon(twitter-square, $fa-var-twitter-square);
+@include fa-ionic-icon(facebook-square, $fa-var-facebook-square);
+@include fa-ionic-icon(camera-retro, $fa-var-camera-retro);
+@include fa-ionic-icon(key, $fa-var-key);
+@include fa-ionic-icon(gears, $fa-var-cogs);
+@include fa-ionic-icon(cogs, $fa-var-cogs);
+@include fa-ionic-icon(comments, $fa-var-comments);
+@include fa-ionic-icon(thumbs-o-up, $fa-var-thumbs-o-up);
+@include fa-ionic-icon(thumbs-o-down, $fa-var-thumbs-o-down);
+@include fa-ionic-icon(star-half, $fa-var-star-half);
+@include fa-ionic-icon(heart-o, $fa-var-heart-o);
+@include fa-ionic-icon(sign-out, $fa-var-sign-out);
+@include fa-ionic-icon(linkedin-square, $fa-var-linkedin-square);
+@include fa-ionic-icon(thumb-tack, $fa-var-thumb-tack);
+@include fa-ionic-icon(external-link, $fa-var-external-link);
+@include fa-ionic-icon(sign-in, $fa-var-sign-in);
+@include fa-ionic-icon(trophy, $fa-var-trophy);
+@include fa-ionic-icon(github-square, $fa-var-github-square);
+@include fa-ionic-icon(upload, $fa-var-upload);
+@include fa-ionic-icon(lemon-o, $fa-var-lemon-o);
+@include fa-ionic-icon(phone, $fa-var-phone);
+@include fa-ionic-icon(square-o, $fa-var-square-o);
+@include fa-ionic-icon(bookmark-o, $fa-var-bookmark-o);
+@include fa-ionic-icon(phone-square, $fa-var-phone-square);
+@include fa-ionic-icon(twitter, $fa-var-twitter);
+@include fa-ionic-icon(facebook-f, $fa-var-facebook);
+@include fa-ionic-icon(facebook, $fa-var-facebook);
+@include fa-ionic-icon(github, $fa-var-github);
+@include fa-ionic-icon(unlock, $fa-var-unlock);
+@include fa-ionic-icon(credit-card, $fa-var-credit-card);
+@include fa-ionic-icon(feed, $fa-var-rss);
+@include fa-ionic-icon(rss, $fa-var-rss);
+@include fa-ionic-icon(hdd-o, $fa-var-hdd-o);
+@include fa-ionic-icon(bullhorn, $fa-var-bullhorn);
+@include fa-ionic-icon(bell, $fa-var-bell);
+@include fa-ionic-icon(certificate, $fa-var-certificate);
+@include fa-ionic-icon(hand-o-right, $fa-var-hand-o-right);
+@include fa-ionic-icon(hand-o-left, $fa-var-hand-o-left);
+@include fa-ionic-icon(hand-o-up, $fa-var-hand-o-up);
+@include fa-ionic-icon(hand-o-down, $fa-var-hand-o-down);
+@include fa-ionic-icon(arrow-circle-left, $fa-var-arrow-circle-left);
+@include fa-ionic-icon(arrow-circle-right, $fa-var-arrow-circle-right);
+@include fa-ionic-icon(arrow-circle-up, $fa-var-arrow-circle-up);
+@include fa-ionic-icon(arrow-circle-down, $fa-var-arrow-circle-down);
+@include fa-ionic-icon(globe, $fa-var-globe);
+@include fa-ionic-icon(wrench, $fa-var-wrench);
+@include fa-ionic-icon(tasks, $fa-var-tasks);
+@include fa-ionic-icon(filter, $fa-var-filter);
+@include fa-ionic-icon(briefcase, $fa-var-briefcase);
+@include fa-ionic-icon(arrows-alt, $fa-var-arrows-alt);
+@include fa-ionic-icon(group, $fa-var-users);
+@include fa-ionic-icon(users, $fa-var-users);
+@include fa-ionic-icon(chain, $fa-var-link);
+@include fa-ionic-icon(link, $fa-var-link);
+@include fa-ionic-icon(cloud, $fa-var-cloud);
+@include fa-ionic-icon(flask, $fa-var-flask);
+@include fa-ionic-icon(cut, $fa-var-scissors);
+@include fa-ionic-icon(scissors, $fa-var-scissors);
+@include fa-ionic-icon(copy, $fa-var-files-o);
+@include fa-ionic-icon(files-o, $fa-var-files-o);
+@include fa-ionic-icon(paperclip, $fa-var-paperclip);
+@include fa-ionic-icon(save, $fa-var-floppy-o);
+@include fa-ionic-icon(floppy-o, $fa-var-floppy-o);
+@include fa-ionic-icon(square, $fa-var-square);
+@include fa-ionic-icon(navicon, $fa-var-bars);
+@include fa-ionic-icon(reorder, $fa-var-bars);
+@include fa-ionic-icon(bars, $fa-var-bars);
+@include fa-ionic-icon(list-ul, $fa-var-list-ul);
+@include fa-ionic-icon(list-ol, $fa-var-list-ol);
+@include fa-ionic-icon(strikethrough, $fa-var-strikethrough);
+@include fa-ionic-icon(underline, $fa-var-underline);
+@include fa-ionic-icon(table, $fa-var-table);
+@include fa-ionic-icon(magic, $fa-var-magic);
+@include fa-ionic-icon(truck, $fa-var-truck);
+@include fa-ionic-icon(pinterest, $fa-var-pinterest);
+@include fa-ionic-icon(pinterest-square, $fa-var-pinterest-square);
+@include fa-ionic-icon(google-plus-square, $fa-var-google-plus-square);
+@include fa-ionic-icon(google-plus, $fa-var-google-plus);
+@include fa-ionic-icon(money, $fa-var-money);
+@include fa-ionic-icon(caret-down, $fa-var-caret-down);
+@include fa-ionic-icon(caret-up, $fa-var-caret-up);
+@include fa-ionic-icon(caret-left, $fa-var-caret-left);
+@include fa-ionic-icon(caret-right, $fa-var-caret-right);
+@include fa-ionic-icon(columns, $fa-var-columns);
+@include fa-ionic-icon(unsorted, $fa-var-sort);
+@include fa-ionic-icon(sort, $fa-var-sort);
+@include fa-ionic-icon(sort-down, $fa-var-sort-desc);
+@include fa-ionic-icon(sort-desc, $fa-var-sort-desc);
+@include fa-ionic-icon(sort-up, $fa-var-sort-asc);
+@include fa-ionic-icon(sort-asc, $fa-var-sort-asc);
+@include fa-ionic-icon(envelope, $fa-var-envelope);
+@include fa-ionic-icon(linkedin, $fa-var-linkedin);
+@include fa-ionic-icon(rotate-left, $fa-var-undo);
+@include fa-ionic-icon(undo, $fa-var-undo);
+@include fa-ionic-icon(legal, $fa-var-gavel);
+@include fa-ionic-icon(gavel, $fa-var-gavel);
+@include fa-ionic-icon(dashboard, $fa-var-tachometer);
+@include fa-ionic-icon(tachometer, $fa-var-tachometer);
+@include fa-ionic-icon(comment-o, $fa-var-comment-o);
+@include fa-ionic-icon(comments-o, $fa-var-comments-o);
+@include fa-ionic-icon(flash, $fa-var-bolt);
+@include fa-ionic-icon(bolt, $fa-var-bolt);
+@include fa-ionic-icon(sitemap, $fa-var-sitemap);
+@include fa-ionic-icon(umbrella, $fa-var-umbrella);
+@include fa-ionic-icon(paste, $fa-var-clipboard);
+@include fa-ionic-icon(clipboard, $fa-var-clipboard);
+@include fa-ionic-icon(lightbulb-o, $fa-var-lightbulb-o);
+@include fa-ionic-icon(exchange, $fa-var-exchange);
+@include fa-ionic-icon(cloud-download, $fa-var-cloud-download);
+@include fa-ionic-icon(cloud-upload, $fa-var-cloud-upload);
+@include fa-ionic-icon(user-md, $fa-var-user-md);
+@include fa-ionic-icon(stethoscope, $fa-var-stethoscope);
+@include fa-ionic-icon(suitcase, $fa-var-suitcase);
+@include fa-ionic-icon(bell-o, $fa-var-bell-o);
+@include fa-ionic-icon(coffee, $fa-var-coffee);
+@include fa-ionic-icon(cutlery, $fa-var-cutlery);
+@include fa-ionic-icon(file-text-o, $fa-var-file-text-o);
+@include fa-ionic-icon(building-o, $fa-var-building-o);
+@include fa-ionic-icon(hospital-o, $fa-var-hospital-o);
+@include fa-ionic-icon(ambulance, $fa-var-ambulance);
+@include fa-ionic-icon(medkit, $fa-var-medkit);
+@include fa-ionic-icon(fighter-jet, $fa-var-fighter-jet);
+@include fa-ionic-icon(beer, $fa-var-beer);
+@include fa-ionic-icon(h-square, $fa-var-h-square);
+@include fa-ionic-icon(plus-square, $fa-var-plus-square);
+@include fa-ionic-icon(angle-double-left, $fa-var-angle-double-left);
+@include fa-ionic-icon(angle-double-right, $fa-var-angle-double-right);
+@include fa-ionic-icon(angle-double-up, $fa-var-angle-double-up);
+@include fa-ionic-icon(angle-double-down, $fa-var-angle-double-down);
+@include fa-ionic-icon(angle-left, $fa-var-angle-left);
+@include fa-ionic-icon(angle-right, $fa-var-angle-right);
+@include fa-ionic-icon(angle-up, $fa-var-angle-up);
+@include fa-ionic-icon(angle-down, $fa-var-angle-down);
+@include fa-ionic-icon(desktop, $fa-var-desktop);
+@include fa-ionic-icon(laptop, $fa-var-laptop);
+@include fa-ionic-icon(tablet, $fa-var-tablet);
+@include fa-ionic-icon(mobile-phone, $fa-var-mobile);
+@include fa-ionic-icon(mobile, $fa-var-mobile);
+@include fa-ionic-icon(circle-o, $fa-var-circle-o);
+@include fa-ionic-icon(quote-left, $fa-var-quote-left);
+@include fa-ionic-icon(quote-right, $fa-var-quote-right);
+@include fa-ionic-icon(spinner, $fa-var-spinner);
+@include fa-ionic-icon(circle, $fa-var-circle);
+@include fa-ionic-icon(mail-reply, $fa-var-reply);
+@include fa-ionic-icon(reply, $fa-var-reply);
+@include fa-ionic-icon(github-alt, $fa-var-github-alt);
+@include fa-ionic-icon(folder-o, $fa-var-folder-o);
+@include fa-ionic-icon(folder-open-o, $fa-var-folder-open-o);
+@include fa-ionic-icon(smile-o, $fa-var-smile-o);
+@include fa-ionic-icon(frown-o, $fa-var-frown-o);
+@include fa-ionic-icon(meh-o, $fa-var-meh-o);
+@include fa-ionic-icon(gamepad, $fa-var-gamepad);
+@include fa-ionic-icon(keyboard-o, $fa-var-keyboard-o);
+@include fa-ionic-icon(flag-o, $fa-var-flag-o);
+@include fa-ionic-icon(flag-checkered, $fa-var-flag-checkered);
+@include fa-ionic-icon(terminal, $fa-var-terminal);
+@include fa-ionic-icon(code, $fa-var-code);
+@include fa-ionic-icon(mail-reply-all, $fa-var-reply-all);
+@include fa-ionic-icon(reply-all, $fa-var-reply-all);
+@include fa-ionic-icon(star-half-empty, $fa-var-star-half-o);
+@include fa-ionic-icon(star-half-full, $fa-var-star-half-o);
+@include fa-ionic-icon(star-half-o, $fa-var-star-half-o);
+@include fa-ionic-icon(location-arrow, $fa-var-location-arrow);
+@include fa-ionic-icon(crop, $fa-var-crop);
+@include fa-ionic-icon(code-fork, $fa-var-code-fork);
+@include fa-ionic-icon(unlink, $fa-var-chain-broken);
+@include fa-ionic-icon(chain-broken, $fa-var-chain-broken);
+@include fa-ionic-icon(question, $fa-var-question);
+@include fa-ionic-icon(info, $fa-var-info);
+@include fa-ionic-icon(exclamation, $fa-var-exclamation);
+@include fa-ionic-icon(superscript, $fa-var-superscript);
+@include fa-ionic-icon(subscript, $fa-var-subscript);
+@include fa-ionic-icon(eraser, $fa-var-eraser);
+@include fa-ionic-icon(puzzle-piece, $fa-var-puzzle-piece);
+@include fa-ionic-icon(microphone, $fa-var-microphone);
+@include fa-ionic-icon(microphone-slash, $fa-var-microphone-slash);
+@include fa-ionic-icon(shield, $fa-var-shield);
+@include fa-ionic-icon(calendar-o, $fa-var-calendar-o);
+@include fa-ionic-icon(fire-extinguisher, $fa-var-fire-extinguisher);
+@include fa-ionic-icon(rocket, $fa-var-rocket);
+@include fa-ionic-icon(maxcdn, $fa-var-maxcdn);
+@include fa-ionic-icon(chevron-circle-left, $fa-var-chevron-circle-left);
+@include fa-ionic-icon(chevron-circle-right, $fa-var-chevron-circle-right);
+@include fa-ionic-icon(chevron-circle-up, $fa-var-chevron-circle-up);
+@include fa-ionic-icon(chevron-circle-down, $fa-var-chevron-circle-down);
+@include fa-ionic-icon(html5, $fa-var-html5);
+@include fa-ionic-icon(css3, $fa-var-css3);
+@include fa-ionic-icon(anchor, $fa-var-anchor);
+@include fa-ionic-icon(unlock-alt, $fa-var-unlock-alt);
+@include fa-ionic-icon(bullseye, $fa-var-bullseye);
+@include fa-ionic-icon(ellipsis-h, $fa-var-ellipsis-h);
+@include fa-ionic-icon(ellipsis-v, $fa-var-ellipsis-v);
+@include fa-ionic-icon(rss-square, $fa-var-rss-square);
+@include fa-ionic-icon(play-circle, $fa-var-play-circle);
+@include fa-ionic-icon(ticket, $fa-var-ticket);
+@include fa-ionic-icon(minus-square, $fa-var-minus-square);
+@include fa-ionic-icon(minus-square-o, $fa-var-minus-square-o);
+@include fa-ionic-icon(level-up, $fa-var-level-up);
+@include fa-ionic-icon(level-down, $fa-var-level-down);
+@include fa-ionic-icon(check-square, $fa-var-check-square);
+@include fa-ionic-icon(pencil-square, $fa-var-pencil-square);
+@include fa-ionic-icon(external-link-square, $fa-var-external-link-square);
+@include fa-ionic-icon(share-square, $fa-var-share-square);
+@include fa-ionic-icon(compass, $fa-var-compass);
+@include fa-ionic-icon(toggle-down, $fa-var-caret-square-o-down);
+@include fa-ionic-icon(caret-square-o-down, $fa-var-caret-square-o-down);
+@include fa-ionic-icon(toggle-up, $fa-var-caret-square-o-up);
+@include fa-ionic-icon(caret-square-o-up, $fa-var-caret-square-o-up);
+@include fa-ionic-icon(toggle-right, $fa-var-caret-square-o-right);
+@include fa-ionic-icon(caret-square-o-right, $fa-var-caret-square-o-right);
+@include fa-ionic-icon(euro, $fa-var-eur);
+@include fa-ionic-icon(eur, $fa-var-eur);
+@include fa-ionic-icon(gbp, $fa-var-gbp);
+@include fa-ionic-icon(dollar, $fa-var-usd);
+@include fa-ionic-icon(usd, $fa-var-usd);
+@include fa-ionic-icon(rupee, $fa-var-inr);
+@include fa-ionic-icon(inr, $fa-var-inr);
+@include fa-ionic-icon(cny, $fa-var-jpy);
+@include fa-ionic-icon(rmb, $fa-var-jpy);
+@include fa-ionic-icon(yen, $fa-var-jpy);
+@include fa-ionic-icon(jpy, $fa-var-jpy);
+@include fa-ionic-icon(ruble, $fa-var-rub);
+@include fa-ionic-icon(rouble, $fa-var-rub);
+@include fa-ionic-icon(rub, $fa-var-rub);
+@include fa-ionic-icon(won, $fa-var-krw);
+@include fa-ionic-icon(krw, $fa-var-krw);
+@include fa-ionic-icon(bitcoin, $fa-var-btc);
+@include fa-ionic-icon(btc, $fa-var-btc);
+@include fa-ionic-icon(file, $fa-var-file);
+@include fa-ionic-icon(file-text, $fa-var-file-text);
+@include fa-ionic-icon(sort-alpha-asc, $fa-var-sort-alpha-asc);
+@include fa-ionic-icon(sort-alpha-desc, $fa-var-sort-alpha-desc);
+@include fa-ionic-icon(sort-amount-asc, $fa-var-sort-amount-asc);
+@include fa-ionic-icon(sort-amount-desc, $fa-var-sort-amount-desc);
+@include fa-ionic-icon(sort-numeric-asc, $fa-var-sort-numeric-asc);
+@include fa-ionic-icon(sort-numeric-desc, $fa-var-sort-numeric-desc);
+@include fa-ionic-icon(thumbs-up, $fa-var-thumbs-up);
+@include fa-ionic-icon(thumbs-down, $fa-var-thumbs-down);
+@include fa-ionic-icon(youtube-square, $fa-var-youtube-square);
+@include fa-ionic-icon(youtube, $fa-var-youtube);
+@include fa-ionic-icon(xing, $fa-var-xing);
+@include fa-ionic-icon(xing-square, $fa-var-xing-square);
+@include fa-ionic-icon(youtube-play, $fa-var-youtube-play);
+@include fa-ionic-icon(dropbox, $fa-var-dropbox);
+@include fa-ionic-icon(stack-overflow, $fa-var-stack-overflow);
+@include fa-ionic-icon(instagram, $fa-var-instagram);
+@include fa-ionic-icon(flickr, $fa-var-flickr);
+@include fa-ionic-icon(adn, $fa-var-adn);
+@include fa-ionic-icon(bitbucket, $fa-var-bitbucket);
+@include fa-ionic-icon(bitbucket-square, $fa-var-bitbucket-square);
+@include fa-ionic-icon(tumblr, $fa-var-tumblr);
+@include fa-ionic-icon(tumblr-square, $fa-var-tumblr-square);
+@include fa-ionic-icon(long-arrow-down, $fa-var-long-arrow-down);
+@include fa-ionic-icon(long-arrow-up, $fa-var-long-arrow-up);
+@include fa-ionic-icon(long-arrow-left, $fa-var-long-arrow-left);
+@include fa-ionic-icon(long-arrow-right, $fa-var-long-arrow-right);
+@include fa-ionic-icon(apple, $fa-var-apple);
+@include fa-ionic-icon(windows, $fa-var-windows);
+@include fa-ionic-icon(android, $fa-var-android);
+@include fa-ionic-icon(linux, $fa-var-linux);
+@include fa-ionic-icon(dribbble, $fa-var-dribbble);
+@include fa-ionic-icon(skype, $fa-var-skype);
+@include fa-ionic-icon(foursquare, $fa-var-foursquare);
+@include fa-ionic-icon(trello, $fa-var-trello);
+@include fa-ionic-icon(female, $fa-var-female);
+@include fa-ionic-icon(male, $fa-var-male);
+@include fa-ionic-icon(gittip, $fa-var-gratipay);
+@include fa-ionic-icon(gratipay, $fa-var-gratipay);
+@include fa-ionic-icon(sun-o, $fa-var-sun-o);
+@include fa-ionic-icon(moon-o, $fa-var-moon-o);
+@include fa-ionic-icon(archive, $fa-var-archive);
+@include fa-ionic-icon(bug, $fa-var-bug);
+@include fa-ionic-icon(vk, $fa-var-vk);
+@include fa-ionic-icon(weibo, $fa-var-weibo);
+@include fa-ionic-icon(renren, $fa-var-renren);
+@include fa-ionic-icon(pagelines, $fa-var-pagelines);
+@include fa-ionic-icon(stack-exchange, $fa-var-stack-exchange);
+@include fa-ionic-icon(arrow-circle-o-right, $fa-var-arrow-circle-o-right);
+@include fa-ionic-icon(arrow-circle-o-left, $fa-var-arrow-circle-o-left);
+@include fa-ionic-icon(toggle-left, $fa-var-caret-square-o-left);
+@include fa-ionic-icon(caret-square-o-left, $fa-var-caret-square-o-left);
+@include fa-ionic-icon(dot-circle-o, $fa-var-dot-circle-o);
+@include fa-ionic-icon(wheelchair, $fa-var-wheelchair);
+@include fa-ionic-icon(vimeo-square, $fa-var-vimeo-square);
+@include fa-ionic-icon(turkish-lira, $fa-var-try);
+@include fa-ionic-icon(try, $fa-var-try);
+@include fa-ionic-icon(plus-square-o, $fa-var-plus-square-o);
+@include fa-ionic-icon(space-shuttle, $fa-var-space-shuttle);
+@include fa-ionic-icon(slack, $fa-var-slack);
+@include fa-ionic-icon(envelope-square, $fa-var-envelope-square);
+@include fa-ionic-icon(wordpress, $fa-var-wordpress);
+@include fa-ionic-icon(openid, $fa-var-openid);
+@include fa-ionic-icon(institution, $fa-var-university);
+@include fa-ionic-icon(bank, $fa-var-university);
+@include fa-ionic-icon(university, $fa-var-university);
+@include fa-ionic-icon(mortar-board, $fa-var-graduation-cap);
+@include fa-ionic-icon(graduation-cap, $fa-var-graduation-cap);
+@include fa-ionic-icon(yahoo, $fa-var-yahoo);
+@include fa-ionic-icon(google, $fa-var-google);
+@include fa-ionic-icon(reddit, $fa-var-reddit);
+@include fa-ionic-icon(reddit-square, $fa-var-reddit-square);
+@include fa-ionic-icon(stumbleupon-circle, $fa-var-stumbleupon-circle);
+@include fa-ionic-icon(stumbleupon, $fa-var-stumbleupon);
+@include fa-ionic-icon(delicious, $fa-var-delicious);
+@include fa-ionic-icon(digg, $fa-var-digg);
+@include fa-ionic-icon(pied-piper-pp, $fa-var-pied-piper-pp);
+@include fa-ionic-icon(pied-piper-alt, $fa-var-pied-piper-alt);
+@include fa-ionic-icon(drupal, $fa-var-drupal);
+@include fa-ionic-icon(joomla, $fa-var-joomla);
+@include fa-ionic-icon(language, $fa-var-language);
+@include fa-ionic-icon(fax, $fa-var-fax);
+@include fa-ionic-icon(building, $fa-var-building);
+@include fa-ionic-icon(child, $fa-var-child);
+@include fa-ionic-icon(paw, $fa-var-paw);
+@include fa-ionic-icon(spoon, $fa-var-spoon);
+@include fa-ionic-icon(cube, $fa-var-cube);
+@include fa-ionic-icon(cubes, $fa-var-cubes);
+@include fa-ionic-icon(behance, $fa-var-behance);
+@include fa-ionic-icon(behance-square, $fa-var-behance-square);
+@include fa-ionic-icon(steam, $fa-var-steam);
+@include fa-ionic-icon(steam-square, $fa-var-steam-square);
+@include fa-ionic-icon(recycle, $fa-var-recycle);
+@include fa-ionic-icon(automobile, $fa-var-car);
+@include fa-ionic-icon(car, $fa-var-car);
+@include fa-ionic-icon(cab, $fa-var-taxi);
+@include fa-ionic-icon(taxi, $fa-var-taxi);
+@include fa-ionic-icon(tree, $fa-var-tree);
+@include fa-ionic-icon(spotify, $fa-var-spotify);
+@include fa-ionic-icon(deviantart, $fa-var-deviantart);
+@include fa-ionic-icon(soundcloud, $fa-var-soundcloud);
+@include fa-ionic-icon(database, $fa-var-database);
+@include fa-ionic-icon(file-pdf-o, $fa-var-file-pdf-o);
+@include fa-ionic-icon(file-word-o, $fa-var-file-word-o);
+@include fa-ionic-icon(file-excel-o, $fa-var-file-excel-o);
+@include fa-ionic-icon(file-powerpoint-o, $fa-var-file-powerpoint-o);
+@include fa-ionic-icon(file-photo-o, $fa-var-file-image-o);
+@include fa-ionic-icon(file-picture-o, $fa-var-file-image-o);
+@include fa-ionic-icon(file-image-o, $fa-var-file-image-o);
+@include fa-ionic-icon(file-zip-o, $fa-var-file-archive-o);
+@include fa-ionic-icon(file-archive-o, $fa-var-file-archive-o);
+@include fa-ionic-icon(file-sound-o, $fa-var-file-audio-o);
+@include fa-ionic-icon(file-audio-o, $fa-var-file-audio-o);
+@include fa-ionic-icon(file-movie-o, $fa-var-file-video-o);
+@include fa-ionic-icon(file-video-o, $fa-var-file-video-o);
+@include fa-ionic-icon(file-code-o, $fa-var-file-code-o);
+@include fa-ionic-icon(vine, $fa-var-vine);
+@include fa-ionic-icon(codepen, $fa-var-codepen);
+@include fa-ionic-icon(jsfiddle, $fa-var-jsfiddle);
+@include fa-ionic-icon(life-bouy, $fa-var-life-ring);
+@include fa-ionic-icon(life-buoy, $fa-var-life-ring);
+@include fa-ionic-icon(life-saver, $fa-var-life-ring);
+@include fa-ionic-icon(support, $fa-var-life-ring);
+@include fa-ionic-icon(life-ring, $fa-var-life-ring);
+@include fa-ionic-icon(circle-o-notch, $fa-var-circle-o-notch);
+@include fa-ionic-icon(ra, $fa-var-rebel);
+@include fa-ionic-icon(resistance, $fa-var-rebel);
+@include fa-ionic-icon(rebel, $fa-var-rebel);
+@include fa-ionic-icon(ge, $fa-var-empire);
+@include fa-ionic-icon(empire, $fa-var-empire);
+@include fa-ionic-icon(git-square, $fa-var-git-square);
+@include fa-ionic-icon(git, $fa-var-git);
+@include fa-ionic-icon(y-combinator-square, $fa-var-hacker-news);
+@include fa-ionic-icon(yc-square, $fa-var-hacker-news);
+@include fa-ionic-icon(hacker-news, $fa-var-hacker-news);
+@include fa-ionic-icon(tencent-weibo, $fa-var-tencent-weibo);
+@include fa-ionic-icon(qq, $fa-var-qq);
+@include fa-ionic-icon(wechat, $fa-var-weixin);
+@include fa-ionic-icon(weixin, $fa-var-weixin);
+@include fa-ionic-icon(send, $fa-var-paper-plane);
+@include fa-ionic-icon(paper-plane, $fa-var-paper-plane);
+@include fa-ionic-icon(send-o, $fa-var-paper-plane-o);
+@include fa-ionic-icon(paper-plane-o, $fa-var-paper-plane-o);
+@include fa-ionic-icon(history, $fa-var-history);
+@include fa-ionic-icon(circle-thin, $fa-var-circle-thin);
+@include fa-ionic-icon(header, $fa-var-header);
+@include fa-ionic-icon(paragraph, $fa-var-paragraph);
+@include fa-ionic-icon(sliders, $fa-var-sliders);
+@include fa-ionic-icon(share-alt, $fa-var-share-alt);
+@include fa-ionic-icon(share-alt-square, $fa-var-share-alt-square);
+@include fa-ionic-icon(bomb, $fa-var-bomb);
+@include fa-ionic-icon(soccer-ball-o, $fa-var-futbol-o);
+@include fa-ionic-icon(futbol-o, $fa-var-futbol-o);
+@include fa-ionic-icon(tty, $fa-var-tty);
+@include fa-ionic-icon(binoculars, $fa-var-binoculars);
+@include fa-ionic-icon(plug, $fa-var-plug);
+@include fa-ionic-icon(slideshare, $fa-var-slideshare);
+@include fa-ionic-icon(twitch, $fa-var-twitch);
+@include fa-ionic-icon(yelp, $fa-var-yelp);
+@include fa-ionic-icon(newspaper-o, $fa-var-newspaper-o);
+@include fa-ionic-icon(wifi, $fa-var-wifi);
+@include fa-ionic-icon(calculator, $fa-var-calculator);
+@include fa-ionic-icon(paypal, $fa-var-paypal);
+@include fa-ionic-icon(google-wallet, $fa-var-google-wallet);
+@include fa-ionic-icon(cc-visa, $fa-var-cc-visa);
+@include fa-ionic-icon(cc-mastercard, $fa-var-cc-mastercard);
+@include fa-ionic-icon(cc-discover, $fa-var-cc-discover);
+@include fa-ionic-icon(cc-amex, $fa-var-cc-amex);
+@include fa-ionic-icon(cc-paypal, $fa-var-cc-paypal);
+@include fa-ionic-icon(cc-stripe, $fa-var-cc-stripe);
+@include fa-ionic-icon(bell-slash, $fa-var-bell-slash);
+@include fa-ionic-icon(bell-slash-o, $fa-var-bell-slash-o);
+@include fa-ionic-icon(trash, $fa-var-trash);
+@include fa-ionic-icon(copyright, $fa-var-copyright);
+@include fa-ionic-icon(at, $fa-var-at);
+@include fa-ionic-icon(eyedropper, $fa-var-eyedropper);
+@include fa-ionic-icon(paint-brush, $fa-var-paint-brush);
+@include fa-ionic-icon(birthday-cake, $fa-var-birthday-cake);
+@include fa-ionic-icon(area-chart, $fa-var-area-chart);
+@include fa-ionic-icon(pie-chart, $fa-var-pie-chart);
+@include fa-ionic-icon(line-chart, $fa-var-line-chart);
+@include fa-ionic-icon(lastfm, $fa-var-lastfm);
+@include fa-ionic-icon(lastfm-square, $fa-var-lastfm-square);
+@include fa-ionic-icon(toggle-off, $fa-var-toggle-off);
+@include fa-ionic-icon(toggle-on, $fa-var-toggle-on);
+@include fa-ionic-icon(bicycle, $fa-var-bicycle);
+@include fa-ionic-icon(bus, $fa-var-bus);
+@include fa-ionic-icon(ioxhost, $fa-var-ioxhost);
+@include fa-ionic-icon(angellist, $fa-var-angellist);
+@include fa-ionic-icon(cc, $fa-var-cc);
+@include fa-ionic-icon(shekel, $fa-var-ils);
+@include fa-ionic-icon(sheqel, $fa-var-ils);
+@include fa-ionic-icon(ils, $fa-var-ils);
+@include fa-ionic-icon(meanpath, $fa-var-meanpath);
+@include fa-ionic-icon(buysellads, $fa-var-buysellads);
+@include fa-ionic-icon(connectdevelop, $fa-var-connectdevelop);
+@include fa-ionic-icon(dashcube, $fa-var-dashcube);
+@include fa-ionic-icon(forumbee, $fa-var-forumbee);
+@include fa-ionic-icon(leanpub, $fa-var-leanpub);
+@include fa-ionic-icon(sellsy, $fa-var-sellsy);
+@include fa-ionic-icon(shirtsinbulk, $fa-var-shirtsinbulk);
+@include fa-ionic-icon(simplybuilt, $fa-var-simplybuilt);
+@include fa-ionic-icon(skyatlas, $fa-var-skyatlas);
+@include fa-ionic-icon(cart-plus, $fa-var-cart-plus);
+@include fa-ionic-icon(cart-arrow-down, $fa-var-cart-arrow-down);
+@include fa-ionic-icon(diamond, $fa-var-diamond);
+@include fa-ionic-icon(ship, $fa-var-ship);
+@include fa-ionic-icon(user-secret, $fa-var-user-secret);
+@include fa-ionic-icon(motorcycle, $fa-var-motorcycle);
+@include fa-ionic-icon(street-view, $fa-var-street-view);
+@include fa-ionic-icon(heartbeat, $fa-var-heartbeat);
+@include fa-ionic-icon(venus, $fa-var-venus);
+@include fa-ionic-icon(mars, $fa-var-mars);
+@include fa-ionic-icon(mercury, $fa-var-mercury);
+@include fa-ionic-icon(intersex, $fa-var-transgender);
+@include fa-ionic-icon(transgender, $fa-var-transgender);
+@include fa-ionic-icon(transgender-alt, $fa-var-transgender-alt);
+@include fa-ionic-icon(venus-double, $fa-var-venus-double);
+@include fa-ionic-icon(mars-double, $fa-var-mars-double);
+@include fa-ionic-icon(venus-mars, $fa-var-venus-mars);
+@include fa-ionic-icon(mars-stroke, $fa-var-mars-stroke);
+@include fa-ionic-icon(mars-stroke-v, $fa-var-mars-stroke-v);
+@include fa-ionic-icon(mars-stroke-h, $fa-var-mars-stroke-h);
+@include fa-ionic-icon(neuter, $fa-var-neuter);
+@include fa-ionic-icon(genderless, $fa-var-genderless);
+@include fa-ionic-icon(facebook-official, $fa-var-facebook-official);
+@include fa-ionic-icon(pinterest-p, $fa-var-pinterest-p);
+@include fa-ionic-icon(whatsapp, $fa-var-whatsapp);
+@include fa-ionic-icon(server, $fa-var-server);
+@include fa-ionic-icon(user-plus, $fa-var-user-plus);
+@include fa-ionic-icon(user-times, $fa-var-user-times);
+@include fa-ionic-icon(hotel, $fa-var-bed);
+@include fa-ionic-icon(bed, $fa-var-bed);
+@include fa-ionic-icon(viacoin, $fa-var-viacoin);
+@include fa-ionic-icon(train, $fa-var-train);
+@include fa-ionic-icon(subway, $fa-var-subway);
+@include fa-ionic-icon(medium, $fa-var-medium);
+@include fa-ionic-icon(yc, $fa-var-y-combinator);
+@include fa-ionic-icon(y-combinator, $fa-var-y-combinator);
+@include fa-ionic-icon(optin-monster, $fa-var-optin-monster);
+@include fa-ionic-icon(opencart, $fa-var-opencart);
+@include fa-ionic-icon(expeditedssl, $fa-var-expeditedssl);
+@include fa-ionic-icon(battery-4, $fa-var-battery-full);
+@include fa-ionic-icon(battery, $fa-var-battery-full);
+@include fa-ionic-icon(battery-full, $fa-var-battery-full);
+@include fa-ionic-icon(battery-3, $fa-var-battery-three-quarters);
+@include fa-ionic-icon(battery-three-quarters, $fa-var-battery-three-quarters);
+@include fa-ionic-icon(battery-2, $fa-var-battery-half);
+@include fa-ionic-icon(battery-half, $fa-var-battery-half);
+@include fa-ionic-icon(battery-1, $fa-var-battery-quarter);
+@include fa-ionic-icon(battery-quarter, $fa-var-battery-quarter);
+@include fa-ionic-icon(battery-0, $fa-var-battery-empty);
+@include fa-ionic-icon(battery-empty, $fa-var-battery-empty);
+@include fa-ionic-icon(mouse-pointer, $fa-var-mouse-pointer);
+@include fa-ionic-icon(i-cursor, $fa-var-i-cursor);
+@include fa-ionic-icon(object-group, $fa-var-object-group);
+@include fa-ionic-icon(object-ungroup, $fa-var-object-ungroup);
+@include fa-ionic-icon(sticky-note, $fa-var-sticky-note);
+@include fa-ionic-icon(sticky-note-o, $fa-var-sticky-note-o);
+@include fa-ionic-icon(cc-jcb, $fa-var-cc-jcb);
+@include fa-ionic-icon(cc-diners-club, $fa-var-cc-diners-club);
+@include fa-ionic-icon(clone, $fa-var-clone);
+@include fa-ionic-icon(balance-scale, $fa-var-balance-scale);
+@include fa-ionic-icon(hourglass-o, $fa-var-hourglass-o);
+@include fa-ionic-icon(hourglass-1, $fa-var-hourglass-start);
+@include fa-ionic-icon(hourglass-start, $fa-var-hourglass-start);
+@include fa-ionic-icon(hourglass-2, $fa-var-hourglass-half);
+@include fa-ionic-icon(hourglass-half, $fa-var-hourglass-half);
+@include fa-ionic-icon(hourglass-3, $fa-var-hourglass-end);
+@include fa-ionic-icon(hourglass-end, $fa-var-hourglass-end);
+@include fa-ionic-icon(hourglass, $fa-var-hourglass);
+@include fa-ionic-icon(hand-grab-o, $fa-var-hand-rock-o);
+@include fa-ionic-icon(hand-rock-o, $fa-var-hand-rock-o);
+@include fa-ionic-icon(hand-stop-o, $fa-var-hand-paper-o);
+@include fa-ionic-icon(hand-paper-o, $fa-var-hand-paper-o);
+@include fa-ionic-icon(hand-scissors-o, $fa-var-hand-scissors-o);
+@include fa-ionic-icon(hand-lizard-o, $fa-var-hand-lizard-o);
+@include fa-ionic-icon(hand-spock-o, $fa-var-hand-spock-o);
+@include fa-ionic-icon(hand-pointer-o, $fa-var-hand-pointer-o);
+@include fa-ionic-icon(hand-peace-o, $fa-var-hand-peace-o);
+@include fa-ionic-icon(trademark, $fa-var-trademark);
+@include fa-ionic-icon(registered, $fa-var-registered);
+@include fa-ionic-icon(creative-commons, $fa-var-creative-commons);
+@include fa-ionic-icon(gg, $fa-var-gg);
+@include fa-ionic-icon(gg-circle, $fa-var-gg-circle);
+@include fa-ionic-icon(tripadvisor, $fa-var-tripadvisor);
+@include fa-ionic-icon(odnoklassniki, $fa-var-odnoklassniki);
+@include fa-ionic-icon(odnoklassniki-square, $fa-var-odnoklassniki-square);
+@include fa-ionic-icon(get-pocket, $fa-var-get-pocket);
+@include fa-ionic-icon(wikipedia-w, $fa-var-wikipedia-w);
+@include fa-ionic-icon(safari, $fa-var-safari);
+@include fa-ionic-icon(chrome, $fa-var-chrome);
+@include fa-ionic-icon(firefox, $fa-var-firefox);
+@include fa-ionic-icon(opera, $fa-var-opera);
+@include fa-ionic-icon(internet-explorer, $fa-var-internet-explorer);
+@include fa-ionic-icon(tv, $fa-var-television);
+@include fa-ionic-icon(television, $fa-var-television);
+@include fa-ionic-icon(contao, $fa-var-contao);
+@include fa-ionic-icon(500px, $fa-var-500px);
+@include fa-ionic-icon(amazon, $fa-var-amazon);
+@include fa-ionic-icon(calendar-plus-o, $fa-var-calendar-plus-o);
+@include fa-ionic-icon(calendar-minus-o, $fa-var-calendar-minus-o);
+@include fa-ionic-icon(calendar-times-o, $fa-var-calendar-times-o);
+@include fa-ionic-icon(calendar-check-o, $fa-var-calendar-check-o);
+@include fa-ionic-icon(industry, $fa-var-industry);
+@include fa-ionic-icon(map-pin, $fa-var-map-pin);
+@include fa-ionic-icon(map-signs, $fa-var-map-signs);
+@include fa-ionic-icon(map-o, $fa-var-map-o);
+@include fa-ionic-icon(map, $fa-var-map);
+@include fa-ionic-icon(commenting, $fa-var-commenting);
+@include fa-ionic-icon(commenting-o, $fa-var-commenting-o);
+@include fa-ionic-icon(houzz, $fa-var-houzz);
+@include fa-ionic-icon(vimeo, $fa-var-vimeo);
+@include fa-ionic-icon(black-tie, $fa-var-black-tie);
+@include fa-ionic-icon(fonticons, $fa-var-fonticons);
+@include fa-ionic-icon(reddit-alien, $fa-var-reddit-alien);
+@include fa-ionic-icon(edge, $fa-var-edge);
+@include fa-ionic-icon(credit-card-alt, $fa-var-credit-card-alt);
+@include fa-ionic-icon(codiepie, $fa-var-codiepie);
+@include fa-ionic-icon(modx, $fa-var-modx);
+@include fa-ionic-icon(fort-awesome, $fa-var-fort-awesome);
+@include fa-ionic-icon(usb, $fa-var-usb);
+@include fa-ionic-icon(product-hunt, $fa-var-product-hunt);
+@include fa-ionic-icon(mixcloud, $fa-var-mixcloud);
+@include fa-ionic-icon(scribd, $fa-var-scribd);
+@include fa-ionic-icon(pause-circle, $fa-var-pause-circle);
+@include fa-ionic-icon(pause-circle-o, $fa-var-pause-circle-o);
+@include fa-ionic-icon(stop-circle, $fa-var-stop-circle);
+@include fa-ionic-icon(stop-circle-o, $fa-var-stop-circle-o);
+@include fa-ionic-icon(shopping-bag, $fa-var-shopping-bag);
+@include fa-ionic-icon(shopping-basket, $fa-var-shopping-basket);
+@include fa-ionic-icon(hashtag, $fa-var-hashtag);
+@include fa-ionic-icon(bluetooth, $fa-var-bluetooth);
+@include fa-ionic-icon(bluetooth-b, $fa-var-bluetooth-b);
+@include fa-ionic-icon(percent, $fa-var-percent);
+@include fa-ionic-icon(gitlab, $fa-var-gitlab);
+@include fa-ionic-icon(wpbeginner, $fa-var-wpbeginner);
+@include fa-ionic-icon(wpforms, $fa-var-wpforms);
+@include fa-ionic-icon(envira, $fa-var-envira);
+@include fa-ionic-icon(universal-access, $fa-var-universal-access);
+@include fa-ionic-icon(wheelchair-alt, $fa-var-wheelchair-alt);
+@include fa-ionic-icon(question-circle-o, $fa-var-question-circle-o);
+@include fa-ionic-icon(blind, $fa-var-blind);
+@include fa-ionic-icon(audio-description, $fa-var-audio-description);
+@include fa-ionic-icon(volume-control-phone, $fa-var-volume-control-phone);
+@include fa-ionic-icon(braille, $fa-var-braille);
+@include fa-ionic-icon(assistive-listening-systems, $fa-var-assistive-listening-systems);
+@include fa-ionic-icon(asl-interpreting, $fa-var-american-sign-language-interpreting);
+@include fa-ionic-icon(american-sign-language-interpreting, $fa-var-american-sign-language-interpreting);
+@include fa-ionic-icon(deafness, $fa-var-deaf);
+@include fa-ionic-icon(hard-of-hearing, $fa-var-deaf);
+@include fa-ionic-icon(deaf, $fa-var-deaf);
+@include fa-ionic-icon(glide, $fa-var-glide);
+@include fa-ionic-icon(glide-g, $fa-var-glide-g);
+@include fa-ionic-icon(signing, $fa-var-sign-language);
+@include fa-ionic-icon(sign-language, $fa-var-sign-language);
+@include fa-ionic-icon(low-vision, $fa-var-low-vision);
+@include fa-ionic-icon(viadeo, $fa-var-viadeo);
+@include fa-ionic-icon(viadeo-square, $fa-var-viadeo-square);
+@include fa-ionic-icon(snapchat, $fa-var-snapchat);
+@include fa-ionic-icon(snapchat-ghost, $fa-var-snapchat-ghost);
+@include fa-ionic-icon(snapchat-square, $fa-var-snapchat-square);
+@include fa-ionic-icon(pied-piper, $fa-var-pied-piper);
+@include fa-ionic-icon(first-order, $fa-var-first-order);
+@include fa-ionic-icon(yoast, $fa-var-yoast);
+@include fa-ionic-icon(themeisle, $fa-var-themeisle);
+@include fa-ionic-icon(google-plus-circle, $fa-var-google-plus-official);
+@include fa-ionic-icon(google-plus-official, $fa-var-google-plus-official);
+@include fa-ionic-icon(fa, $fa-var-font-awesome);
+@include fa-ionic-icon(font-awesome, $fa-var-font-awesome);
+@include fa-ionic-icon(handshake-o, $fa-var-handshake-o);
+@include fa-ionic-icon(envelope-open, $fa-var-envelope-open);
+@include fa-ionic-icon(envelope-open-o, $fa-var-envelope-open-o);
+@include fa-ionic-icon(linode, $fa-var-linode);
+@include fa-ionic-icon(address-book, $fa-var-address-book);
+@include fa-ionic-icon(address-book-o, $fa-var-address-book-o);
+@include fa-ionic-icon(vcard, $fa-var-address-card);
+@include fa-ionic-icon(address-card, $fa-var-address-card);
+@include fa-ionic-icon(vcard-o, $fa-var-address-card-o);
+@include fa-ionic-icon(address-card-o, $fa-var-address-card-o);
+@include fa-ionic-icon(user-circle, $fa-var-user-circle);
+@include fa-ionic-icon(user-circle-o, $fa-var-user-circle-o);
+@include fa-ionic-icon(user-o, $fa-var-user-o);
+@include fa-ionic-icon(id-badge, $fa-var-id-badge);
+@include fa-ionic-icon(drivers-license, $fa-var-id-card);
+@include fa-ionic-icon(id-card, $fa-var-id-card);
+@include fa-ionic-icon(drivers-license-o, $fa-var-id-card-o);
+@include fa-ionic-icon(id-card-o, $fa-var-id-card-o);
+@include fa-ionic-icon(quora, $fa-var-quora);
+@include fa-ionic-icon(free-code-camp, $fa-var-free-code-camp);
+@include fa-ionic-icon(telegram, $fa-var-telegram);
+@include fa-ionic-icon(thermometer-4, $fa-var-thermometer-full);
+@include fa-ionic-icon(thermometer, $fa-var-thermometer-full);
+@include fa-ionic-icon(thermometer-full, $fa-var-thermometer-full);
+@include fa-ionic-icon(thermometer-3, $fa-var-thermometer-three-quarters);
+@include fa-ionic-icon(thermometer-three-quarters, $fa-var-thermometer-three-quarters);
+@include fa-ionic-icon(thermometer-2, $fa-var-thermometer-half);
+@include fa-ionic-icon(thermometer-half, $fa-var-thermometer-half);
+@include fa-ionic-icon(thermometer-1, $fa-var-thermometer-quarter);
+@include fa-ionic-icon(thermometer-quarter, $fa-var-thermometer-quarter);
+@include fa-ionic-icon(thermometer-0, $fa-var-thermometer-empty);
+@include fa-ionic-icon(thermometer-empty, $fa-var-thermometer-empty);
+@include fa-ionic-icon(shower, $fa-var-shower);
+@include fa-ionic-icon(bathtub, $fa-var-bath);
+@include fa-ionic-icon(s15, $fa-var-bath);
+@include fa-ionic-icon(bath, $fa-var-bath);
+@include fa-ionic-icon(podcast, $fa-var-podcast);
+@include fa-ionic-icon(window-maximize, $fa-var-window-maximize);
+@include fa-ionic-icon(window-minimize, $fa-var-window-minimize);
+@include fa-ionic-icon(window-restore, $fa-var-window-restore);
+@include fa-ionic-icon(times-rectangle, $fa-var-window-close);
+@include fa-ionic-icon(window-close, $fa-var-window-close);
+@include fa-ionic-icon(times-rectangle-o, $fa-var-window-close-o);
+@include fa-ionic-icon(window-close-o, $fa-var-window-close-o);
+@include fa-ionic-icon(bandcamp, $fa-var-bandcamp);
+@include fa-ionic-icon(grav, $fa-var-grav);
+@include fa-ionic-icon(etsy, $fa-var-etsy);
+@include fa-ionic-icon(imdb, $fa-var-imdb);
+@include fa-ionic-icon(ravelry, $fa-var-ravelry);
+@include fa-ionic-icon(eercast, $fa-var-eercast);
+@include fa-ionic-icon(microchip, $fa-var-microchip);
+@include fa-ionic-icon(snowflake-o, $fa-var-snowflake-o);
+@include fa-ionic-icon(superpowers, $fa-var-superpowers);
+@include fa-ionic-icon(wpexplorer, $fa-var-wpexplorer);
+@include fa-ionic-icon(meetup, $fa-var-meetup);
